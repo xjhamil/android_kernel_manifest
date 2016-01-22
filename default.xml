@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="aosp-goldfish-3.10"
+           remote="aosp"
+           sync-j="4" />
+  <manifest-server url="http://android-test:8787" />
+  <project path="build" name="kernel/build" revision="aosp-goldfish-3.10" />
+  <project path="goldfish" name="kernel/goldfish" revision="android-goldfish-3.10" >
+    <copyfile src="build.config.x86_64_ranchu" dest="build.config" />
+  </project>
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="master" clone-depth="1" />
+</manifest>
