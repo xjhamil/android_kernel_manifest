@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "34c3ee5c_f4eecdaa",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1051712
+      },
+      "writtenOn": "2016-01-27T01:15:09Z",
+      "side": 1,
+      "message": "need to confirm branch name for kernel/build. Do we use one branch for different configs or do we need create multiple branches, just like kernel/manifest.",
+      "range": {
+        "startLine": 6,
+        "startChar": 21,
+        "endLine": 6,
+        "endChar": 39
+      },
+      "revId": "ac0072b2691695db8cb7d4b089a886407d33b62b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b4afde8e_1f90c4fd",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1051712
+      },
+      "writtenOn": "2016-01-27T01:15:09Z",
+      "side": 1,
+      "message": "I\u0027ll need to create this file in kernel branch.",
+      "range": {
+        "startLine": 12,
+        "startChar": 19,
+        "endLine": 12,
+        "endChar": 45
+      },
+      "revId": "ac0072b2691695db8cb7d4b089a886407d33b62b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
