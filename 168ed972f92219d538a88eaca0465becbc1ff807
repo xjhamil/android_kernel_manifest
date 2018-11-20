@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9b8f7b66_d6442262",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2018-11-20T21:44:30Z",
+      "side": 1,
+      "message": "I think the branch name should be bluecross instead of crosshatch.",
+      "range": {
+        "startLine": 4,
+        "startChar": 33,
+        "endLine": 4,
+        "endChar": 43
+      },
+      "revId": "168ed972f92219d538a88eaca0465becbc1ff807",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
