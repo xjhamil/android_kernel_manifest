@@ -1,6 +1,5 @@
 <manifest>
-  <remote  name="aosp"
-    fetch="https://android.googlesource.com/" />
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="android-msm-bluecross-4.9-pie-qpr1"
     remote="aosp" sync-j="4" />
 
