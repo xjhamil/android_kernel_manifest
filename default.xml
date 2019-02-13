@@ -3,7 +3,7 @@
   <default revision="android-msm-bluecross-4.9-pie-qpr1"
     remote="aosp" sync-j="4" />
 
-  <project path="build" name="kernel/build" />
+  <project path="build" name="kernel/build" revision="master"/>
   <project path="private/msm-google" name="kernel/msm" >
     <linkfile src="build.config" dest="build.config" />
   </project>
