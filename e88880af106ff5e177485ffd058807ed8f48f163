@@ -1,0 +1,8 @@
+Code-Review+2: Alistair Strachan <astrachan@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Matthias Männich <maennich@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 20 Feb 2019 12:50:55 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/907446
+Project: kernel/manifest
+Branch: refs/heads/android-hikey960-linaro-4.9
