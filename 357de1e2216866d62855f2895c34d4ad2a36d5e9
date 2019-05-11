@@ -1,0 +1,7 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Sat, 11 May 2019 04:04:36 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/959641
+Project: kernel/manifest
+Branch: refs/heads/android-msm-bonito-4.9-pie-b4s4
