@@ -3,8 +3,13 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master" remote="aosp" sync-j="4" />
   <project path="build" name="kernel/build" />
+<<<<<<< HEAD   (3f15bb Initial manifest for p-common-android-4.4)
   <project path="common" name="kernel/common" revision="android-4.4-p" />
   <project path="kernel/tests" name="kernel/tests" />
+=======
+  <project path="common" name="kernel/common" revision="android-4.9-p" />
+  <project path="kernel/tests" name="kernel/tests" revision="pie-dr1-release" />
+>>>>>>> CHANGE (f36b73 Fix test branch)
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
