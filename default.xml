@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="master" remote="aosp" sync-j="4" />
+
+  <project path="build" name="kernel/build" />
+  <project path="omap" name="kernel/omap" revision="android-beagle-x15-4.14" >
+      <linkfile src="build.config" dest="build.config"/>
+      <linkfile src="build.config.net_test" dest="build.config.net_test"/>
+  </project>
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+</manifest>
