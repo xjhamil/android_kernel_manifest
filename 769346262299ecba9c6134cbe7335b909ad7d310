@@ -1,0 +1,8 @@
+Autosubmit+1: Alessio Balsini <balsini@google.com>
+Code-Review+2: Alessio Balsini <balsini@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 26 Jul 2019 10:30:37 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/907435
+Project: kernel/manifest
+Branch: refs/heads/android-msm-marlin-3.18-pie-qpr1
