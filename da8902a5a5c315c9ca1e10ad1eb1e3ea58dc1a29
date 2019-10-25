@@ -1,0 +1,9 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Matthias Maennich <maennich@google.com>
+Code-Review+2: Todd Kjos <tkjos@google.com>
+Autosubmit+1: Matthias Maennich <maennich@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 25 Oct 2019 20:46:11 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1151158
+Project: kernel/manifest
+Branch: refs/heads/common-android-mainline
