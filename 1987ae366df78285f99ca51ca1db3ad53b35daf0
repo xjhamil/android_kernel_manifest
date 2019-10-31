@@ -1,0 +1,7 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Inna Palant <ipalant@google.com>
+Submitted-at: Thu, 31 Oct 2019 18:05:21 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1156364
+Project: kernel/manifest
+Branch: refs/heads/q-goldfish-android-goldfish-4.14-dev
