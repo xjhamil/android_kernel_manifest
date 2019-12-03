@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android-msm-wahoo-4.4-pie-qpr2"
+  <default revision="android-msm-wahoo-4.4-android10-qpr1"
     remote="aosp" sync-j="4" />
 
   <project path="build" name="kernel/build" revision="master"/>
   <project path="private/msm-google" name="kernel/msm">
     <linkfile src="build.config" dest="build.config"/>
   </project>
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="pie-release" clone-depth="1"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="pie-release" clone-depth="1"/>
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="pie-release" clone-depth="1"/>
-  <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1"/>
-  <project path="kernel/tests" name="kernel/tests" revision="pie-release"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="0b1bb8dd7e3ad5ee9898535e91a673b46386de09" clone-depth="1"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="65e6e70ed1ba42c3d1e9b608cac7977196f32af4" clone-depth="1"/>
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="4b1f275e6b3826c86f791ae8c4d5ec3563c2fc11" clone-depth="1"/>
+  <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="master" clone-depth="1"/>
+  <project path="kernel/tests" name="kernel/tests" revision="master"/>
 </manifest>
