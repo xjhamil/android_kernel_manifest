@@ -1,0 +1,7 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Wed, 04 Dec 2019 01:05:56 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1180505
+Project: kernel/manifest
+Branch: refs/heads/android-msm-marlin-3.18-android10
