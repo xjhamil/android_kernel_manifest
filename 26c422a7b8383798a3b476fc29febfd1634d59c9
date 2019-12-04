@@ -22,6 +22,30 @@
       "revId": "26c422a7b8383798a3b476fc29febfd1634d59c9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "02161976_431eecb7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2019-12-04T01:06:37Z",
+      "side": 1,
+      "message": "Yes, this was intentional (to match partner build versions).",
+      "parentUuid": "76c7b791_1d95eb72",
+      "range": {
+        "startLine": 13,
+        "startChar": 81,
+        "endLine": 13,
+        "endChar": 84
+      },
+      "revId": "26c422a7b8383798a3b476fc29febfd1634d59c9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
