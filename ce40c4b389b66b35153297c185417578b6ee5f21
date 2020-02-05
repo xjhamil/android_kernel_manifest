@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "998d2298_8810dada",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1278660
+      },
+      "writtenOn": "2020-02-05T01:10:14Z",
+      "side": 1,
+      "message": "If we go the GKI way, we don\u0027t this, only goldfish-modules with our drivers there, right?",
+      "range": {
+        "startLine": 6,
+        "startChar": 2,
+        "endLine": 6,
+        "endChar": 88
+      },
+      "revId": "ce40c4b389b66b35153297c185417578b6ee5f21",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f24a2912_ae38827f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1278660
+      },
+      "writtenOn": "2020-02-05T01:10:14Z",
+      "side": 1,
+      "message": "Now sure if we need something like this here.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 12
+      },
+      "revId": "ce40c4b389b66b35153297c185417578b6ee5f21",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
