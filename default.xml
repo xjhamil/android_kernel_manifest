@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="master" remote="aosp" sync-j="4" />
+
+  <project path="goldfish" name="kernel/goldfish" revision="android-goldfish-5.4-dev" />
+  <project path="goldfish-modules" name="kernel/goldfish-modules" revision="android-5.4" />
+
+  <project path="private/msm-google" name="kernel/msm" >
+    <linkfile src="build.config.no-cfi" dest="build.config" />
+  </project>
+
+  <project path="common" name="kernel/common" revision="android-5.4" clone-depth="1" />
+
+  <project path="build" name="kernel/build" clone-depth="1" />
+  <project path="kernel/tests" name="kernel/tests" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+</manifest>
