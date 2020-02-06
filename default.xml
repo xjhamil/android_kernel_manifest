@@ -4,7 +4,7 @@
   <default revision="master" remote="aosp" sync-j="4" />
 
   <project path="goldfish-modules" name="kernel/goldfish-modules" revision="android-5.4" />
-  <project path="common" name="kernel/common" revision="android-5.4" clone-depth="1" />
+  <project path="common" name="kernel/common" revision="ASB-2020-02-05_5.4" clone-depth="1" />
 
   <project path="build" name="kernel/build" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" clone-depth="1" />
