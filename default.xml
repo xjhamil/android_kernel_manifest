@@ -5,7 +5,7 @@
 
   <project path="build" name="kernel/build" revision="master" />
   <project path="hikey-linaro" name="kernel/hikey-linaro" clone-depth="1" revision="android-hikey-linaro-4.19" >
-    <linkfile src="build.config" dest="build.config" />
+    <linkfile src="build.config.hikey960" dest="build.config" />
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
