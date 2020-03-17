@@ -4,8 +4,13 @@
   <default revision="master" remote="aosp" sync-j="4" />
 
   <project path="build" name="kernel/build" revision="master" />
+<<<<<<< HEAD   (0b43ae Add symlink for build.config)
   <project path="hikey-linaro" name="kernel/hikey-linaro" clone-depth="1" revision="android-hikey-linaro-4.14" >
     <linkfile src="build.config" dest="build.config" />
+=======
+  <project path="hikey-linaro" name="kernel/hikey-linaro" clone-depth="1" revision="android-hikey-linaro-4.19" >
+    <linkfile src="build.config.hikey960" dest="build.config" />
+>>>>>>> CHANGE (d351fe default.xml: set build for hikey960 as default)
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
