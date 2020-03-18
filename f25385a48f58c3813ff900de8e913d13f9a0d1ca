@@ -22,6 +22,30 @@
       "revId": "f25385a48f58c3813ff900de8e913d13f9a0d1ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "914cbb5c_b00ae77d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2020-03-18T04:02:41Z",
+      "side": 1,
+      "message": "This change is cherry picked from the common-android-mainline branch, which was initially for generating gki boot.img I guess.\n\nbut the mkbootimg tool could be used for generating non-gki boot.img as well.\nAnd the cherry pick here is just to integrate the mkbootimg tools for generating the boot.img. The boot-artifacts is not used, but it does not have any harm effect to integrate it together I think.\n\nAnd as there is an existing change that we could cherry pick, so I just cherry picked this change, instead of submitting a separate change to integrate only the mkbootimg tool.",
+      "parentUuid": "ec86ea1a_89dc5ec2",
+      "range": {
+        "startLine": 9,
+        "startChar": 12,
+        "endLine": 9,
+        "endChar": 13
+      },
+      "revId": "f25385a48f58c3813ff900de8e913d13f9a0d1ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
