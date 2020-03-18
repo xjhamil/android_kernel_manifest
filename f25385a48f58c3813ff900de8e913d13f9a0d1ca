@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ec86ea1a_89dc5ec2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1010110
+      },
+      "writtenOn": "2020-03-18T03:07:43Z",
+      "side": 1,
+      "message": "Sorry, maybe I missed something, but I\u0027m not sure I understand why you\u0027re adding GKI bits to the 4.19 tree, as I thought 5.4 was really the initial GKI target?",
+      "range": {
+        "startLine": 9,
+        "startChar": 12,
+        "endLine": 9,
+        "endChar": 13
+      },
+      "revId": "f25385a48f58c3813ff900de8e913d13f9a0d1ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
