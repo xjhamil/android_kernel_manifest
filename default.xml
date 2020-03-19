@@ -4,7 +4,12 @@
   <default revision="master" remote="aosp" sync-j="4" />
 
   <project path="build" name="kernel/build" />
+<<<<<<< HEAD   (2f79ee Add goldfish-modules to common-android-5.4-stable)
   <project path="common" name="kernel/common" revision="android-5.4-stable" />
+=======
+  <project path="common" name="kernel/common" revision="android-5.4" />
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
+>>>>>>> CHANGE (37969d common-android-5.4: Add hikey-modules to the android-5.4 man)
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-5.4" dest="common/patches" />
   </project>
