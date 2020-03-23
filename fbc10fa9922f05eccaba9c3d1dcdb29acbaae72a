@@ -1,0 +1,9 @@
+Code-Review+2: Alistair Delva <adelva@google.com>
+Autosubmit+1: Alistair Delva <adelva@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 23 Mar 2020 14:57:25 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1265101
+Project: kernel/manifest
+Branch: refs/heads/hikey-linaro-android-4.14
