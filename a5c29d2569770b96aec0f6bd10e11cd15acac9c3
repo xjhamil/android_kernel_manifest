@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae2511b_eb0e29a0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-03-23T11:26:47Z",
+      "side": 1,
+      "message": "clone-depth\u003d\"1\" ?",
+      "revId": "a5c29d2569770b96aec0f6bd10e11cd15acac9c3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
