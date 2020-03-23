@@ -1,0 +1,9 @@
+Code-Review+2: Matthias Maennich <maennich@google.com>
+Autosubmit+1: Matthias Maennich <maennich@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 23 Mar 2020 11:32:24 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1265099
+Project: kernel/manifest
+Branch: refs/heads/hikey-linaro-android-4.14
