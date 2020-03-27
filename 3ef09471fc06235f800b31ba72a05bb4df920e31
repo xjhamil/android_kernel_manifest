@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b153985d_fb3a3e2a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2020-03-27T21:53:33Z",
+      "side": 1,
+      "message": "This is not allowed by policy.\nWill comment further on the bug.",
+      "range": {
+        "startLine": 4,
+        "startChar": 28,
+        "endLine": 4,
+        "endChar": 84
+      },
+      "revId": "3ef09471fc06235f800b31ba72a05bb4df920e31",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
