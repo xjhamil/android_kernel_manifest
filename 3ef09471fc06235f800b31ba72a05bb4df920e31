@@ -22,6 +22,30 @@
       "revId": "3ef09471fc06235f800b31ba72a05bb4df920e31",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ccfe9e5_6a7c58d5",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-03-27T22:00:29Z",
+      "side": 1,
+      "message": "That is a manifest for local development where this is super useful. :-|",
+      "parentUuid": "b153985d_fb3a3e2a",
+      "range": {
+        "startLine": 4,
+        "startChar": 28,
+        "endLine": 4,
+        "endChar": 84
+      },
+      "revId": "3ef09471fc06235f800b31ba72a05bb4df920e31",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
