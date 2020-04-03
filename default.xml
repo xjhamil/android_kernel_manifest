@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android-msm-wahoo-4.4-android10-qpr1"
+  <default revision="android-msm-wahoo-4.4-android10"
     remote="aosp" sync-j="4" />
 
   <project path="build" name="kernel/build" revision="master"/>
