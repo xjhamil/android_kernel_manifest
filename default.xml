@@ -8,7 +8,7 @@
   <project path="common-mainline" name="kernel/common" revision="android-mainline" />
   <project path="common-5.4" name="kernel/common" revision="android-5.4" />
   <project path="common-4.19" name="kernel/common" revision="android-4.19" />
-  <project path="common-4.14" name="kernel/common" revision="android-4.14" />
+  <project path="common-4.14" name="kernel/common" revision="android-4.14-stable" />
   <project path="common-4.9" name="kernel/common" revision="android-4.9-q" />
   <project path="common-4.4" name="kernel/common" revision="android-4.4-p" />
   <project path="kernel/tests" name="kernel/tests" />
