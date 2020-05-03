@@ -7,7 +7,9 @@
   <project path="upstream" name="kernel/common" revision="upstream-master" />
   <project path="common-mainline" name="kernel/common" revision="android-mainline" />
   <project path="common-5.4" name="kernel/common" revision="android-5.4" />
+  <project path="common-5.4-stable" name="kernel/common" revision="android-5.4-stable" />
   <project path="common-4.19" name="kernel/common" revision="android-4.19" />
+  <project path="common-4.19-stable" name="kernel/common" revision="android-4.19-stable" />
   <project path="common-4.14" name="kernel/common" revision="android-4.14-stable" />
   <project path="common-4.9" name="kernel/common" revision="android-4.9-q" />
   <project path="common-4.4" name="kernel/common" revision="android-4.4-p" />
@@ -15,9 +17,12 @@
   <project path="kernel/configs" name="kernel/configs" revision="master" />
   <project path="cuttlefish-modules-mainline" name="kernel/cuttlefish-modules" revision="android-mainline" />
   <project path="cuttlefish-modules-5.4" name="kernel/cuttlefish-modules" revision="android-5.4" />
+  <project path="cuttlefish-modules-5.4-stable" name="kernel/cuttlefish-modules" revision="android-5.4-stable" />
   <project path="cuttlefish-modules-4.19" name="kernel/cuttlefish-modules" revision="android-4.19" />
+  <project path="cuttlefish-modules-4.19-stable" name="kernel/cuttlefish-modules" revision="android-4.19-stable" />
   <project path="goldfish-modules-mainline" name="kernel/goldfish-modules" revision="android-mainline" />
   <project path="goldfish-modules-5.4" name="kernel/goldfish-modules" revision="android-5.4" />
+  <project path="goldfish-modules-5.4-stable" name="kernel/goldfish-modules" revision="android-5.4-stable" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
