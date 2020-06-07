@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote  name="aosp" fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="master" remote="aosp" sync-j="4" />
-
-  <!-- build projects -->
-  <project path="prebuilts/build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-</manifest>
