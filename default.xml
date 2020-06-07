@@ -8,6 +8,8 @@
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
   </project>
+  <project path="kernel/omap/4.19" name="kernel/omap" revision="android-beagle-x15-4.19" groups="notdefault,omap-4-19"/>
+  <project path="kernel/omap/4.14" name="kernel/omap" revision="android-beagle-x15-4.14" groups="notdefault,omap-4-14"/>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" revision="master" />
   <project path="goldfish-modules" name="kernel/goldfish-modules" revision="android-mainline" />
