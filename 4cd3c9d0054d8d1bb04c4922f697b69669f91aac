@@ -1,0 +1,9 @@
+Code-Review+2: Matthias Maennich <maennich@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Verified+1: Xin Li <delphij@google.com>
+Submitted-by: Matthias Maennich <maennich@google.com>
+Submitted-at: Mon, 08 Jun 2020 21:00:29 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1325215
+Project: kernel/manifest
+Branch: refs/heads/build-tools
