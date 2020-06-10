@@ -27,6 +27,7 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
 
   <!-- target projects -->
+  <project path="external/dtc" name="platform/external/dtc" />
   <project path="external/lz4" name="platform/external/lz4" />
 
 </manifest>
