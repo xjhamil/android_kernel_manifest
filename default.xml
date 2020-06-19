@@ -9,6 +9,9 @@
 
   <!-- build tool dependencies -->
   <project path="build/blueprint" name="platform/build/blueprint" />
+  <project path="build/make" name="platform/build" groups="pdk" >
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="build/soong" name="platform/build/soong" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -23,8 +26,18 @@
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux" clone-depth="1" />
 
   <!-- dependencies -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
   <project path="external/libcxx" name="platform/external/libcxx" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
 
   <!-- target projects -->
   <project path="external/dtc" name="platform/external/dtc" />
