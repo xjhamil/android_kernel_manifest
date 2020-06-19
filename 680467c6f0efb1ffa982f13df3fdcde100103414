@@ -1,0 +1,8 @@
+Autosubmit+1: Steve Muckle <smuckle@google.com>
+Code-Review+2: Matthias Maennich <maennich@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 19 Jun 2020 20:21:55 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1344581
+Project: kernel/manifest
+Branch: refs/heads/build-tools
