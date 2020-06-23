@@ -28,8 +28,11 @@
   <!-- dependencies -->
   <project path="bionic" name="platform/bionic" />
   <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/dwarves" name="platform/external/dwarves" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/dwarves/lib/bpf" name="platform/external/libbpf" />
   <project path="external/libcxx" name="platform/external/libcxx" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" />
