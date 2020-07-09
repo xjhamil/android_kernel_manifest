@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "22d93132_08acb7bd",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2020-07-09T22:56:02Z",
+      "side": 0,
+      "message": "why is this \"common-4.14\" and not \"common-4.14-stable\" ?",
+      "range": {
+        "startLine": 13,
+        "startChar": 17,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "8a5642282505f784776c535125726f0dd10a5848",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
