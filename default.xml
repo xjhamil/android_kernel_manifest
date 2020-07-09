@@ -21,8 +21,8 @@
   <project path="cuttlefish-modules-4.19" name="kernel/cuttlefish-modules" revision="android-4.19" />
   <project path="cuttlefish-modules-4.19-stable" name="kernel/cuttlefish-modules" revision="android-4.19-stable" />
   <project path="goldfish-modules-mainline" name="kernel/goldfish-modules" revision="android-mainline" />
-  <project path="goldfish-modules-5.4" name="kernel/goldfish-modules" revision="android-5.4" />
-  <project path="goldfish-modules-5.4-stable" name="kernel/goldfish-modules" revision="android-5.4-stable" />
+  <project path="goldfish-modules-android12-5.4" name="kernel/goldfish-modules" revision="android12-5.4" />
+  <project path="goldfish-modules-android11-5.4" name="kernel/goldfish-modules" revision="android11-5.4" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
