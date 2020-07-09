@@ -8,7 +8,6 @@
   <project path="common-mainline" name="kernel/common" revision="android-mainline" />
   <project path="common12-5.4" name="kernel/common" revision="android12-5.4" />
   <project path="common11-5.4" name="kernel/common" revision="android11-5.4" />
-  <project path="common-4.19" name="kernel/common" revision="android-4.19" />
   <project path="common-4.19-stable" name="kernel/common" revision="android-4.19-stable" />
   <project path="common-4.14" name="kernel/common" revision="android-4.14-stable" />
   <project path="common-4.9" name="kernel/common" revision="android-4.9-q" />
@@ -18,7 +17,6 @@
   <project path="cuttlefish-modules-mainline" name="kernel/cuttlefish-modules" revision="android-mainline" />
   <project path="cuttlefish-modules-5.4" name="kernel/cuttlefish-modules" revision="android-5.4" />
   <project path="cuttlefish-modules-5.4-stable" name="kernel/cuttlefish-modules" revision="android-5.4-stable" />
-  <project path="cuttlefish-modules-4.19" name="kernel/cuttlefish-modules" revision="android-4.19" />
   <project path="cuttlefish-modules-4.19-stable" name="kernel/cuttlefish-modules" revision="android-4.19-stable" />
   <project path="goldfish-modules-mainline" name="kernel/goldfish-modules" revision="android-mainline" />
   <project path="goldfish-modules-android12-5.4" name="kernel/goldfish-modules" revision="android12-5.4" />
