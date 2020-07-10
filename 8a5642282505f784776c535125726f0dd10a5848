@@ -22,6 +22,30 @@
       "revId": "8a5642282505f784776c535125726f0dd10a5848",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c90a1aa_9682eeb9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-07-10T07:15:25Z",
+      "side": 0,
+      "message": "aosp/1360337",
+      "parentUuid": "22d93132_08acb7bd",
+      "range": {
+        "startLine": 13,
+        "startChar": 17,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "8a5642282505f784776c535125726f0dd10a5848",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
