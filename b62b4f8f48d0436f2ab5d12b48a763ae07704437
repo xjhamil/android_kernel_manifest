@@ -16,6 +16,23 @@
       "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ca5214a_85742bce",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-07-15T08:57:03Z",
+      "side": 1,
+      "message": "note, you likely also want to add\n\n\u003cproject path\u003d\"prebuilts/kernel-build-tools\" name\u003d\"kernel/prebuilts/build-tools\" clone-depth\u003d\"1\" /\u003e",
+      "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
