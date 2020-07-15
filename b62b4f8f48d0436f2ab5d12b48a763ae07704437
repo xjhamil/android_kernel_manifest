@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "3f937abe_d388c77b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2020-07-15T14:55:23Z",
+      "side": 1,
+      "message": "test to see if the comments could be sent out",
+      "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ca5214a_85742bce",
         "filename": "default.xml",
         "patchSetId": 1
@@ -30,6 +47,24 @@
       "writtenOn": "2020-07-15T08:57:03Z",
       "side": 1,
       "message": "note, you likely also want to add\n\n\u003cproject path\u003d\"prebuilts/kernel-build-tools\" name\u003d\"kernel/prebuilts/build-tools\" clone-depth\u003d\"1\" /\u003e",
+      "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f2131d7b_a87e00af",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2020-07-15T14:55:23Z",
+      "side": 1,
+      "message": "Did a cherry-pick change here for the kernel-build-tools:\nhttps://android-review.googlesource.com/c/kernel/manifest/+/1363637/1/default.xml\n\nit depends on this build-tools change to avoid the merge conflict problem\n\nAnd could you please help to explain more on why this might be needed?\nI tested without the kernel-build-tools project, and there is no build errors, and I could boot with the kernel/dtb/ko files successfully. so I doubt a bit if we really needs this project.\n\nBTW, not sure how do you think about adding both the hikey-linaro kernel and the omap kernel into the common-android-4.19-stable manifest file, we won\u0027t need to do such cherry-picks if we do like that.",
+      "parentUuid": "8ca5214a_85742bce",
       "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
