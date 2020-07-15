@@ -68,6 +68,24 @@
       "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7769f227_6699cd21",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-07-15T19:24:09Z",
+      "side": 1,
+      "message": "kernel-build-tools has some (more) tools that would otherwise come from the host (e.g. depmod). In the future we will expand this even more to make the kernel build truly independent from the host system (i.e. the hermetic build). This is transparent for downstream once you added this setup (same as with the build-tools). Some tools (like libabigail) will come via the kernel-build-tools only (at which point using it will become mandatory).\n\nCurrent tools are only few, more to come:\nhttps://android.googlesource.com/kernel/prebuilts/build-tools/+/refs/heads/master/linux-x86/bin/",
+      "parentUuid": "f2131d7b_a87e00af",
+      "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
