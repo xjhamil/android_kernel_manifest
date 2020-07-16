@@ -86,6 +86,24 @@
       "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67ed7e09_e1a6937d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2020-07-16T00:39:51Z",
+      "side": 1,
+      "message": "Thanks for the kind explanation!\nOK, could we have this merged first, and then I will submit another cherry-pick for the kernel build-tool which will not have the merge conflict problem any more.",
+      "parentUuid": "7769f227_6699cd21",
+      "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
