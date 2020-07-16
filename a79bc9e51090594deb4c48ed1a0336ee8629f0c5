@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8aecdd64_4c33f78f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2020-07-16T17:18:41Z",
+      "side": 1,
+      "message": "Tested the images generated with this change, and it could boot to home screen successfully.",
+      "revId": "a79bc9e51090594deb4c48ed1a0336ee8629f0c5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
