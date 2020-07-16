@@ -104,6 +104,24 @@
       "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18033f7a_66016333",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2020-07-16T07:37:33Z",
+      "side": 1,
+      "message": "please help +1 on Autosubmit again, just resolved this comment.",
+      "parentUuid": "67ed7e09_e1a6937d",
+      "revId": "b62b4f8f48d0436f2ab5d12b48a763ae07704437",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
