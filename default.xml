@@ -27,6 +27,7 @@
 
   <!-- dependencies -->
   <project path="bionic" name="platform/bionic" />
+  <project path="external/avb" name="platform/external/avb" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/dwarves" name="platform/external/dwarves" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -35,7 +36,9 @@
   <project path="external/dwarves/lib/bpf" name="platform/external/libbpf" />
   <project path="external/libcxx" name="platform/external/libcxx" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
