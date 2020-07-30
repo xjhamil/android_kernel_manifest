@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "71b47471_7f88f6ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-07-30T15:55:08Z",
+      "side": 1,
+      "message": "Note, you should not mix manifest changes into topics as this will not yield in the result you intend in treehugger.",
+      "revId": "475d5afce72bb6a6abf0a4a8ec35889a4382b3ff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
