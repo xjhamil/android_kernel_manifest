@@ -20,6 +20,33 @@
       "revId": "2e70940fd698d526ff7c437cd74de4199884cc4d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004215673",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1389092?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9c49c1fc_d8258136",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1550585
+      },
+      "writtenOn": "2020-08-05T02:38:31Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 7,
+        "startChar": 67,
+        "endLine": 7,
+        "endChar": 73
+      },
+      "revId": "2e70940fd698d526ff7c437cd74de4199884cc4d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
