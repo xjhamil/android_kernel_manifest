@@ -29,6 +29,7 @@
   <project path="bionic" name="platform/bionic" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/dwarves" name="platform/external/dwarves" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fmtlib" name="platform/external/fmtlib" />
@@ -41,7 +42,9 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="system/core" name="platform/system/core" />
+  <project path="system/extras" name="platform/system/extras" />
   <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" />
 
   <!-- target projects -->
   <project path="external/dtc" name="platform/external/dtc" />
