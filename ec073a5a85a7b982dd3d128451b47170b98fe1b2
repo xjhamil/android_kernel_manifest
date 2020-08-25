@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "819ddacf_283d646f",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-08-25T10:34:53Z",
+      "side": 1,
+      "message": "are we able to reduce this to python3 only?",
+      "range": {
+        "startLine": 41,
+        "startChar": 2,
+        "endLine": 42,
+        "endChar": 86
+      },
+      "revId": "ec073a5a85a7b982dd3d128451b47170b98fe1b2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
