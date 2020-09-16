@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a370ff7a_c6bab5f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1569742
+      },
+      "writtenOn": "2020-09-16T15:29:38Z",
+      "side": 1,
+      "message": "aosp/1427379 should be a better fix",
+      "revId": "ca5f9985d01d967b4904e229a27ed6cbe876a382",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
