@@ -18,6 +18,7 @@
   <project path="common-modules/virtual-device12-5.4" name="kernel/common-modules/virtual-device" revision="android12-5.4" />
   <project path="common-modules/virtual-device11-5.4" name="kernel/common-modules/virtual-device" revision="android11-5.4" />
   <project path="common-modules/virtual-device-4.19-stable" name="kernel/common-modules/virtual-device" revision="android-4.19-stable" />
+  <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
