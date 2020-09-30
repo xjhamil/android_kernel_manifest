@@ -8,6 +8,12 @@
     <linkfile src="build.config.hikey960" dest="build.config" />
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="master" />
+<<<<<<< HEAD   (f4ecda default.xml: update to use the master version clang prebuilt)
+=======
+  <project path="kernel/configs" name="kernel/configs" revision="master" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-4.19-stable" />
+  <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
+>>>>>>> CHANGE (7e467d Add prebuilt gnu as)
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
