@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f7b35fa_e860ccd4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2020-09-30T00:33:39Z",
+      "side": 1,
+      "message": "same same as aosp/1441998 but for 4.19 branch.",
+      "revId": "7e467d4df4b4fc519fc13cfbec394b2ddf4aea09",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
