@@ -1,0 +1,8 @@
+Autosubmit+1: Nick Desaulniers <ndesaulniers@google.com>
+Code-Review+2: Alistair Delva <adelva@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 30 Sep 2020 01:26:34 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1442515
+Project: kernel/manifest
+Branch: refs/heads/common-android12-5.4
