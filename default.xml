@@ -9,11 +9,15 @@
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="master" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
+<<<<<<< HEAD   (df6b71 Add prebuilt gnu as)
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" revision="master" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" />
+=======
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+>>>>>>> CHANGE (b5055a remove GNU binutils)
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
