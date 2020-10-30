@@ -16,6 +16,23 @@
       "message": "(I don\u0027t have +2)",
       "revId": "df6b714ffdf0b8690384670b3d695fbcbd4a5201",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccf2fa87_c1301ce8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-10-30T09:59:10Z",
+      "side": 1,
+      "message": "Consider applying the full topic to migrate to gas only as done for 4.19-stable:\n\nhttps://android-review.googlesource.com/q/topic:%22goodbye_binutils_4_19%22+(status:open%20OR%20status:merged)",
+      "revId": "df6b714ffdf0b8690384670b3d695fbcbd4a5201",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
