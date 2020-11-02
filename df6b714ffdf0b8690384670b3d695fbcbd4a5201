@@ -51,6 +51,24 @@
       "parentUuid": "ccf2fa87_c1301ce8",
       "revId": "df6b714ffdf0b8690384670b3d695fbcbd4a5201",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0beaeaf7_08a3c8ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-11-02T14:34:13Z",
+      "side": 1,
+      "message": "I am generally ok with that if this helps. ACK usually do not have a \"default\" build.config anyway. (and we should not introduce one).\n\nHow about we discuss this over a patch?",
+      "parentUuid": "3b95fae8_d90e0ead",
+      "revId": "df6b714ffdf0b8690384670b3d695fbcbd4a5201",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
