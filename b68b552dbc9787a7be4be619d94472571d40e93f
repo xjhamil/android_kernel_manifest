@@ -1,0 +1,10 @@
+Autosubmit+1: Matthias Maennich <maennich@google.com>
+Code-Review+2: Alistair Delva <adelva@google.com>
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Bypass-Presubmit+1: Matthias Maennich <maennich@google.com>
+Submitted-by: Matthias Maennich <maennich@google.com>
+Submitted-at: Mon, 07 Dec 2020 23:02:57 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1519629
+Project: kernel/manifest
+Branch: refs/heads/common-android-mainline
