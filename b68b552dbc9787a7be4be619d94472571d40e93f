@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6271ab6c_c0858931",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2020-12-07T21:39:18Z",
+      "side": 1,
+      "message": "I\u0027m okay with this, but the build team might tell us to use linux_bionic instead..",
+      "revId": "b68b552dbc9787a7be4be619d94472571d40e93f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
