@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f043582_3e92a8a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2020-12-08T09:36:17Z",
+      "side": 1,
+      "message": "The allmodconfig builds are still broken with this, will be fixed in a later change.",
+      "revId": "ec76ca63a2ce070bb9c1aa09f8085772c646d7d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
