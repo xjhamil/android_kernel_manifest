@@ -6,6 +6,7 @@
   <project path="build" name="kernel/build" />
   <project path="upstream" name="kernel/common" revision="upstream-master" />
   <project path="common-mainline" name="kernel/common" revision="android-mainline" />
+  <project path="common12-5.10" name="kernel/common" revision="android12-5.10" />
   <project path="common12-5.4" name="kernel/common" revision="android12-5.4" />
   <project path="common11-5.4" name="kernel/common" revision="android11-5.4" />
   <project path="common-4.19-stable" name="kernel/common" revision="android-4.19-stable" />
@@ -15,6 +16,7 @@
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" revision="master" />
   <project path="common-modules/virtual-device-mainline" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="common-modules/virtual-device12-5.10" name="kernel/common-modules/virtual-device" revision="android-mainline" />
   <project path="common-modules/virtual-device12-5.4" name="kernel/common-modules/virtual-device" revision="android12-5.4" />
   <project path="common-modules/virtual-device11-5.4" name="kernel/common-modules/virtual-device" revision="android11-5.4" />
   <project path="common-modules/virtual-device-4.19-stable" name="kernel/common-modules/virtual-device" revision="android-4.19-stable" />
