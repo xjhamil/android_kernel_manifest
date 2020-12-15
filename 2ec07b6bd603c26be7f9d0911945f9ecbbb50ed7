@@ -1,0 +1,10 @@
+Verified+1: Dmitry Shmidt <dimitrysh@google.com>
+Autosubmit+1: Dmitry Shmidt <dimitrysh@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+2: Alistair Delva <adelva@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 15 Dec 2020 22:10:12 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/manifest/+/1528680
+Project: kernel/manifest
+Branch: refs/heads/android-bmeson-5.10
