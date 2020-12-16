@@ -18,4 +18,5 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1"/>
 </manifest>
