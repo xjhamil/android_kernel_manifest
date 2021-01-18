@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ae0d506_42fb1a75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-01-18T16:08:58Z",
+      "side": 1,
+      "message": "This only affects the \u0027linux\u0027 build target, which is passing. ",
+      "revId": "8cbc77cc9eee814354a49ae4426a85427eeef983",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
