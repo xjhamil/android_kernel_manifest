@@ -34,7 +34,7 @@
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fmtlib" name="platform/external/fmtlib" />
   <project path="external/icu" name="platform/external/icu" />
-  <project path="external/dwarves/lib/bpf" name="platform/external/libbpf" />
+  <project path="external/libbpf" name="platform/external/libbpf" />
   <project path="external/libabigail" name="platform/external/libabigail" />
   <project path="external/libcxx" name="platform/external/libcxx" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
