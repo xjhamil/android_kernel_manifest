@@ -33,6 +33,24 @@
       "message": "This should replace `prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9`, please remove that.",
       "revId": "a4a0a99b64ba19eb5d7e7168f69b175367681a76",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca606bc7_18bd552a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-01-20T20:38:37Z",
+      "side": 1,
+      "message": "Ack, Done",
+      "parentUuid": "e5ffac28_0769e136",
+      "revId": "a4a0a99b64ba19eb5d7e7168f69b175367681a76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
