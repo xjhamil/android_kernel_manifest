@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9acc628e_de8999f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-01-20T20:21:13Z",
+      "side": 1,
+      "message": "prebuilts/misc is deprecated. And lz4 has been added to the kernel-build-tools\n\nhttps://android.googlesource.com/kernel/prebuilts/build-tools/+/refs/heads/master/linux-x86/bin/\n\nif using build/build.sh that is already in PATH",
+      "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9d11be8_127c8704",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-01-20T20:21:13Z",
+      "side": 1,
+      "message": "lz4 is already part of the kernel-build-tools",
+      "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
