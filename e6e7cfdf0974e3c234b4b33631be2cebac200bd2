@@ -33,6 +33,24 @@
       "message": "lz4 is already part of the kernel-build-tools",
       "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f894e73_3143867a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1437603
+      },
+      "writtenOn": "2021-02-09T19:09:49Z",
+      "side": 1,
+      "message": "Revisting this.  Using the lz4 from kernel-build-tools, and relying on the kernel build to generate an `Image.lz4` results in a kernel image which does not boot.\n\nIf I instead use the one from prebuilts/misc to generate the Image.lz4, it boots.\n\nHere\u0027s what I added to my build.config to make it work.\n```\nEXTRA_CMDS\u003d\"lz4_compress\"\nLZ4_PREBUILTS_BIN\u003dprebuilts/misc/linux-x86/lz4\nfunction lz4_compress() {\n        ./${LZ4_PREBUILTS_BIN}/lz4c -f ${OUT_DIR}/arch/arm64/boot/Image ${OUT_DIR}/arch/arm64/boot/Image.lz4\n}\n```\n\nAre there other arm64 platforms using lz4 from kernel-build-tools to generate an Image.lz4 which actually boots?",
+      "parentUuid": "d9d11be8_127c8704",
+      "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
