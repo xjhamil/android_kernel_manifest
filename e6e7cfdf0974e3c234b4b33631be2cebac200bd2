@@ -51,6 +51,24 @@
       "parentUuid": "d9d11be8_127c8704",
       "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6e0b443_ac034971",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1437603
+      },
+      "writtenOn": "2021-02-09T20:24:11Z",
+      "side": 1,
+      "message": "OK, so I think I figured out the problem.\n\nTurns out that problem is not the lz4 binary itself.  The problem is using kernel\u0027s Image.lz4 make target.  The kernel build passes the legacy option (-l) to lz4 which u-boot fails to uncompress.\n\nTherefore, the build.config has to have a separate step to generate an Image.lz4 which does not pass -l to lz4.",
+      "parentUuid": "6f894e73_3143867a",
+      "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
