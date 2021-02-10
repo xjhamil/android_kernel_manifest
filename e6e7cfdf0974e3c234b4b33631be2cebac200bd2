@@ -69,6 +69,24 @@
       "parentUuid": "6f894e73_3143867a",
       "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f8ed703_85579de9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-02-10T03:59:04Z",
+      "side": 1,
+      "message": "Hi Kevin. I dug into this a bit more for you, and I think I know where this is coming from. In upstream Linux there is this bit of code in scripts/Makefile.lib:\n\nquiet_cmd_lz4 \u003d LZ4     $@\n      cmd_lz4 \u003d { cat $(real-prereqs) | $(LZ4) -l -c1 stdin stdout; \\\n                  $(size_append); } \u003e $@\n\nOn the Android side we\u0027ve additionally added \"-12 --favor-decSpeed\" because we found the trade-off was better than the default (but not by much), but we never modified the legacy mode.\n\nThis turns out to be used by any architecture which relies on the built-in decompression code, like x86. The lz4 code in the kernel only handles the legacy format. So, kbuild will compress initramfs and vmlinux.bin using the legacy flag.\n\nBut if we pivot to the arm64 world, there\u0027s no more zImage. The bootloader takes care of it. And you\u0027re right that predominantly, they expect the non-legacy format. Indeed the default Image.lz4 code in arch/arm64/boot/Makefile just does:\n\n$(obj)/Image.lz4: $(obj)/Image FORCE\n        $(call if_changed,lz4)\n\nWhich compresses with default flags, and doesn\u0027t use the legacy flag.\n\nBut we compress the GKI artifact offline on our gki/download_from_ci script, and we copied the flags over from kbuild.. so now we\u0027re stuck with an arm64 Image.lz4 that doesn\u0027t use the legacy flag 😞\n\nI will check internally what it\u0027s going to take to unwind this.. as GKI has already been distributed as arm64 boot images it might be tricky, but hopefully not.",
+      "parentUuid": "e6e0b443_ac034971",
+      "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
