@@ -87,6 +87,24 @@
       "parentUuid": "e6e0b443_ac034971",
       "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f5096a9_d594ef23",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1437603
+      },
+      "writtenOn": "2021-02-10T16:55:29Z",
+      "side": 1,
+      "message": "Hi Alistair, thanks for digging deeper.\n\nOnce you figure it out, I\u0027d be glad to cleanup the kernel/common/build.config.amlogic that just got merged to not have the custom lz4_compress step.\n\nThanks.",
+      "parentUuid": "2f8ed703_85579de9",
+      "revId": "e6e7cfdf0974e3c234b4b33631be2cebac200bd2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
