@@ -6,9 +6,7 @@
     remote="aosp" sync-j="4" />
 
   <project path="private/msm-google" name="kernel/msm" >
-    <linkfile src="build.config.no-cfi" dest="build.config" />
-    <linkfile src="build_floral.sh" dest="build_floral.sh" />
-    <linkfile src="build_sunfish.sh" dest="build_sunfish.sh" />
+    <linkfile src="build.config.floral_no-cfi" dest="build.config" />
   </project>
   <project path="private/msm-google/techpack/audio" name="kernel/msm-extra" />
   <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" />
