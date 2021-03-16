@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68810c12_8c1a907d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2021-03-16T00:28:22Z",
+      "side": 1,
+      "message": "do we want to mix floral and sunfish for the kernel build?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 61
+      },
+      "revId": "bf06a300bd482f707dd4d104f9479b8e05c0f95d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c23164b_4a57f6e9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2021-03-16T00:28:22Z",
+      "side": 1,
+      "message": "I thought we pushed from fts_touch_s5 to fts_touch project.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 104
+      },
+      "revId": "bf06a300bd482f707dd4d104f9479b8e05c0f95d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
