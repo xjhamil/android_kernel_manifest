@@ -22,6 +22,30 @@
       },
       "revId": "c4fafa709c4b5ac44832fa7b84f0a639560a5531",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66c5e709_3337e21b",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2021-03-16T06:50:17Z",
+      "side": 0,
+      "message": "We don\u0027t.\n\nFor the SAC kernel build instructions, what really mattered here was the build.config symlink.",
+      "parentUuid": "a4e7a547_b5cf4d64",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 61
+      },
+      "revId": "c4fafa709c4b5ac44832fa7b84f0a639560a5531",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
