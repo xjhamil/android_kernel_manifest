@@ -3,6 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master" remote="aosp" sync-j="4" />
 
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" />
   <project path="build" name="kernel/build" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="master" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="master" />
