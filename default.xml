@@ -10,5 +10,7 @@
   <project path="kernel/tests" name="kernel/tests" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86"
+    name="platform/prebuilts/clang/host/linux-x86" clone-depth="1"
+    revision="9f604206c7fabcaf31a75a50f8aa6a38f38fc8e4"/>
 </manifest>
