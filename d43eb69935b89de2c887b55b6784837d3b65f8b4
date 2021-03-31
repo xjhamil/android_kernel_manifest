@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26e9894b_b65af18f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1120612
+      },
+      "writtenOn": "2021-03-31T22:31:20Z",
+      "side": 1,
+      "message": "Thank you Alexander, have you verified locally that this fixes the build break?",
+      "revId": "d43eb69935b89de2c887b55b6784837d3b65f8b4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
