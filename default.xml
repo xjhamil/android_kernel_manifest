@@ -35,6 +35,7 @@
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk" />
   <project path="external/icu" name="platform/external/icu" />
   <project path="external/libbpf" name="platform/external/libbpf" />
   <project path="external/libabigail" name="platform/external/libabigail" />
