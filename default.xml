@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="master" remote="aosp" sync-j="4" />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
+
   <project path="build" name="kernel/build" />
   <project path="common" name="kernel/common" revision="android-4.14-q" />
   <project path="kernel/tests" name="kernel/tests" />
