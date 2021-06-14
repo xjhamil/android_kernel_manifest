@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="master" remote="aosp" sync-j="4" />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="build" name="kernel/build" revision="master" />
+  <project path="build" name="kernel/build" />
   <project path="hikey-linaro" name="kernel/hikey-linaro" clone-depth="1" revision="android-hikey-linaro-4.19" >
     <linkfile src="build.config.hikey960" dest="build.config" />
   </project>
-  <project path="kernel/tests" name="kernel/tests" revision="master" />
+  <project path="kernel/tests" name="kernel/tests" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
-  <project path="prebuilts-master/clang/host/linux-x86" revision="master" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
-  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
