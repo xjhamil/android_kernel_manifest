@@ -16,6 +16,24 @@
       "message": "Looks like a branch is missing for the prebuilts.\n\nerrors.BadManifestErrorInSync: Failed to get SHA1 for project path: prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9. Revision master-kernel-build-2021 is invalid .\n",
       "revId": "4aa7b79733b87b703386d3d8e768b42e9e78d6bc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "979ad8f5_7a934886",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-06-15T07:38:17Z",
+      "side": 1,
+      "message": "This is fixed by now.",
+      "parentUuid": "ad50aed7_d0acd58e",
+      "revId": "4aa7b79733b87b703386d3d8e768b42e9e78d6bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
