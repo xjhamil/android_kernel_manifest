@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ef10b4c_9b05b28e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2021-06-18T15:45:57Z",
+      "side": 1,
+      "message": "This looks OK to me. I have not checked the projects exist, but I assume you have!",
+      "revId": "a8b1fdf372f09973219da1dbb532df16ffc8d843",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
