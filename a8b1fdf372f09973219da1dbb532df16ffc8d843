@@ -39,6 +39,30 @@
       },
       "revId": "a8b1fdf372f09973219da1dbb532df16ffc8d843",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84d767ce_ed0f3a45",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-06-19T06:58:57Z",
+      "side": 1,
+      "message": "see the commit message of the other change in this topic for an explanation. In short: tools/bazel is a convention that would also be supported and redirected to by a local /use/bin/bazel execution. The beauty of this is that you can be anywhere below the top level directory and just call \u0027bazel\u0027. This will redirect to the correct bazel prebuilt (wrapper) then.",
+      "parentUuid": "ce0d9fa8_3bed07be",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 52
+      },
+      "revId": "a8b1fdf372f09973219da1dbb532df16ffc8d843",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
