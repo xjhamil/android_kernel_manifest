@@ -16,6 +16,29 @@
       "message": "This looks OK to me. I have not checked the projects exist, but I assume you have!",
       "revId": "a8b1fdf372f09973219da1dbb532df16ffc8d843",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce0d9fa8_3bed07be",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-06-19T00:59:19Z",
+      "side": 1,
+      "message": "btw why is this placed in the tools directory? Doesn\u0027t that mean we\u0027ll have to invoke tools/bazel every time?",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 52
+      },
+      "revId": "a8b1fdf372f09973219da1dbb532df16ffc8d843",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
