@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd9c5b33_c689b105",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-06-25T09:29:19Z",
+      "side": 1,
+      "message": "this will break pre-android13 branches. Consider also adding a symbolic link for older branches.",
+      "revId": "62c07de085fdae372beefd946d3c44e1375ae6ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
