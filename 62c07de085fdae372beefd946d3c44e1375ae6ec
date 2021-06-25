@@ -34,6 +34,24 @@
       "parentUuid": "dd9c5b33_c689b105",
       "revId": "62c07de085fdae372beefd946d3c44e1375ae6ec",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbefa106_789bfd82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-06-25T10:18:23Z",
+      "side": 1,
+      "message": "Commit message needs an update",
+      "parentUuid": "64e53aa9_e53c0490",
+      "revId": "62c07de085fdae372beefd946d3c44e1375ae6ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
