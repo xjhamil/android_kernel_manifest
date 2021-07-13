@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f13512f7_ba4ae51d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-07-13T10:18:19Z",
+      "side": 0,
+      "message": "no need to drop the superproject tag",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 58
+      },
+      "revId": "1780a51cda4a6819a558d047b903476c8bd977b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
