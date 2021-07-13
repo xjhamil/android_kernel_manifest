@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "781280fe_c89b99bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2021-07-13T09:52:28Z",
+      "side": 1,
+      "message": "Got a green build by:\n\nhttps://android-build.googleplex.com/builds/abtd/run/L97300000949905654",
+      "revId": "e4f475d59ea0bcdcc330514eae8ca4aab51796bd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
