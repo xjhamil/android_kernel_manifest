@@ -89,6 +89,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd856bd8_59afc27a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2021-07-14T04:03:58Z",
+      "side": 1,
+      "message": "I am convinced. Removed the default revision.",
+      "parentUuid": "41b8651d_a3ca890d",
+      "range": {
+        "startLine": 5,
+        "startChar": 25,
+        "endLine": 5,
+        "endChar": 64
+      },
+      "revId": "e4f475d59ea0bcdcc330514eae8ca4aab51796bd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe2c8017_a0a860c0",
@@ -268,6 +292,30 @@
       "side": 1,
       "message": "This looks all very messy, but ok, if this comes from a deterministic source ...",
       "parentUuid": "2ee74ce9_cd2c13b7",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 44
+      },
+      "revId": "e4f475d59ea0bcdcc330514eae8ca4aab51796bd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e932d5f_a13e4e30",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2021-07-14T04:03:58Z",
+      "side": 1,
+      "message": "Agree it\u0027s messy. Will have a script to do this to keep the modification as possible after this pilot-run.",
+      "parentUuid": "b20a5713_e3e4e41f",
       "range": {
         "startLine": 19,
         "startChar": 0,
