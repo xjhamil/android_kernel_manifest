@@ -16,6 +16,29 @@
       "message": "Passed the Forrest:\n\nhttps://android-build.googleplex.com/builds/abtd/run/L73900000950313404\n",
       "revId": "8bf04781c076a902d58df94bd403bb82f5cce32c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c0a80fa_8763294a",
+        "filename": "default.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-07-14T07:09:35Z",
+      "side": 1,
+      "message": "one last suggestion (not insisting):\n\nif you were to add \"upstream\u003dmaster-kernel-build-2021\" and \"dest-branch\u003dmaster-kernel-build-2021\" here to the default, you can drop all of those instances further below. This makes the whole manifest easy to reason about, the diff to the original smaller and removes redundant information.\n\nOne step further, you could regroup the repos to put the \u0027master-kernel-build\u0027 ones separate.",
+      "range": {
+        "startLine": 4,
+        "startChar": 3,
+        "endLine": 4,
+        "endChar": 10
+      },
+      "revId": "8bf04781c076a902d58df94bd403bb82f5cce32c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
