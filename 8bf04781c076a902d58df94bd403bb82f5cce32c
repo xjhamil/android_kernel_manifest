@@ -18,6 +18,23 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "66f92e2a_20f78ace",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2021-07-14T07:18:48Z",
+      "side": 1,
+      "message": "Hi Matthias,\n\nI don\u0027t have permission on Autosubmit nor Submit.\n\nCould you help to submit the patch for me, please?\n\nThanks!",
+      "revId": "8bf04781c076a902d58df94bd403bb82f5cce32c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8c0a80fa_8763294a",
