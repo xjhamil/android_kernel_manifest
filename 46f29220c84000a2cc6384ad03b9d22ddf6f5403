@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f43fe30b_b8ce2ab6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2021-07-14T10:22:13Z",
+      "side": 1,
+      "message": "Passed on Forrest:\n\nhttps://android-build.googleplex.com/builds/abtd/run/L42900000950312398",
+      "revId": "46f29220c84000a2cc6384ad03b9d22ddf6f5403",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
