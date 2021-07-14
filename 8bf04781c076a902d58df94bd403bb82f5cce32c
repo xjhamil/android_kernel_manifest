@@ -39,6 +39,30 @@
       },
       "revId": "8bf04781c076a902d58df94bd403bb82f5cce32c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1248989e_aa6946a4",
+        "filename": "default.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2021-07-14T07:17:19Z",
+      "side": 1,
+      "message": "\u003e add \"upstream\u003dmaster-kernel-build-2021\" and \"dest-branch\u003dmaster-kernel-build-2021\" here to the default\n\nI like this. This is reasonable on the branches like this.\nWe will need to snap a new version after GKI freeze soon.\nWill apply the idea to the next version.",
+      "parentUuid": "8c0a80fa_8763294a",
+      "range": {
+        "startLine": 4,
+        "startChar": 3,
+        "endLine": 4,
+        "endChar": 10
+      },
+      "revId": "8bf04781c076a902d58df94bd403bb82f5cce32c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
