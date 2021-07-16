@@ -7,7 +7,7 @@
 
   <project path="build" name="kernel/build" revision="4346db81411b04ab61bb28266a8701bf9510f71a" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="29186c26014764e1ed94548b285b3f020beed758" upstream="android12-5.10" dest-branch="android12-5.10" />
-  <project path="common" name="kernel/common" revision="android12-5.10-m2107" />
+  <project path="common" name="kernel/common" revision="android12-5.10-m2107" upstream="android12-5.10-m2107" dest-branch="android12-5.10-m2107" />
   <project path="kernel/tests" name="kernel/tests" revision="c3bc6d71b3525ce39caccf096053e2acb31d5d0c" />
   <project path="kernel/configs" name="kernel/configs" revision="cf587f7bcddf2758180ffee322ba2b7a0bb85f36" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="6a14bda94ee61654deb767e1232079acb085a8b9" upstream="android12-5.10" dest-branch="android12-5.10" />
