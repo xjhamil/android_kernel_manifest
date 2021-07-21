@@ -16,6 +16,29 @@
       "message": "not tested by TH",
       "revId": "fc604d719192120cb0dd08f61c042a1ec9b1b0dc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0aa9a90_ae5f7b2b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2021-07-21T15:46:40Z",
+      "side": 1,
+      "message": "-legacy?",
+      "range": {
+        "startLine": 45,
+        "startChar": 26,
+        "endLine": 45,
+        "endChar": 33
+      },
+      "revId": "fc604d719192120cb0dd08f61c042a1ec9b1b0dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
