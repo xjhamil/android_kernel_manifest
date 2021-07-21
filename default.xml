@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="master" remote="aosp" sync-j="10" />
+  <default revision="master" remote="aosp" sync-j="16" />
 
   <superproject name="kernel/superproject" remote="aosp"/>
 
-  <project path="build" name="kernel/build" />
+  <project path="build-legacy" name="kernel/build" revision="master-kernel-build-2021" />
+  <project path="build-trunk" name="kernel/build" >
+    <linkfile src="multi-switcher.sh" dest="multi-switcher.sh" />
+  </project>
+
   <project path="upstream" name="kernel/common" revision="upstream-master" />
   <project path="common-mainline" name="kernel/common" revision="android-mainline" />
   <project path="common13-5.10" name="kernel/common" revision="android13-5.10" />
@@ -16,24 +20,40 @@
   <project path="common-4.14-stable" name="kernel/common" revision="android-4.14-stable" />
   <project path="common-4.9" name="kernel/common" revision="android-4.9-q" />
   <project path="common-4.4" name="kernel/common" revision="android-4.4-p" />
-  <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" revision="master" />
+
+  <project path="kernel-legacy/tests" name="kernel/tests" revision="master-kernel-build-2021"/>
+  <project path="kernel-legacy/configs" name="kernel/configs" revision="master-kernel-build-2021"/>
+  <project path="kernel-trunk/tests" name="kernel/tests" />
+  <project path="kernel-trunk/configs" name="kernel/configs"/>
+
   <project path="common-modules/virtual-device-mainline" name="kernel/common-modules/virtual-device" revision="android-mainline" />
   <project path="common-modules/virtual-device13-5.10" name="kernel/common-modules/virtual-device" revision="android13-5.10" />
   <project path="common-modules/virtual-device12-5.10" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
   <project path="common-modules/virtual-device12-5.4" name="kernel/common-modules/virtual-device" revision="android12-5.4" />
   <project path="common-modules/virtual-device11-5.4" name="kernel/common-modules/virtual-device" revision="android11-5.4" />
   <project path="common-modules/virtual-device-4.19-stable" name="kernel/common-modules/virtual-device" revision="android-4.19-stable" />
-  <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1">
-    <linkfile src="." dest="prebuilts-master/clang/host/linux-x86" />
-  </project>
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+
+  <project path="prebuilts-legacy/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2021" />
+
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="master-kernel-build-2021" />
+
+  <project path="prebuilts-trunk/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
+  <project path="prebuilts-trunk/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts-trunk/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
+  <project path="prebuilts-trunk/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts-trunk/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts-trunk/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
+  <project path="prebuilts-trunk/boot-artifacts" name="platform/prebuilts/boot-artifacts" />
+  <project path="prebuilts-trunk/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts-trunk/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+
+  <project path="tools-legacy/mkbootimg" name="platform/system/tools/mkbootimg" revision="master-kernel-build-2021" />
+  <project path="tools-trunk/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
