@@ -38,7 +38,7 @@
   <project path="prebuilts-legacy/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" revision="master-kernel-build-2021" />
   <project path="prebuilts-legacy/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" revision="master-kernel-build-2021" />
   <project path="prebuilts-legacy/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="master-kernel-build-2021" />
-  <project path="prebuilts-legacy/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master-kernel-build-2021" />
+  <project path="prebuilts-legacy/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master-kernel-build-2021" clone-depth="1" />
   <project path="prebuilts-legacy/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2021" />
   <project path="prebuilts-legacy/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2021" />
 
@@ -50,7 +50,7 @@
   <project path="prebuilts-trunk/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts-trunk/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts-trunk/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project path="prebuilts-trunk/boot-artifacts" name="platform/prebuilts/boot-artifacts" />
+  <project path="prebuilts-trunk/boot-artifacts" name="platform/prebuilts/boot-artifacts" clone-depth="1" />
   <project path="prebuilts-trunk/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts-trunk/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
 
