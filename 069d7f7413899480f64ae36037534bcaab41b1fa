@@ -16,6 +16,24 @@
       "message": "can you move this line down a bit (away from the kernel build dependencies)",
       "revId": "069d7f7413899480f64ae36037534bcaab41b1fa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "403fa158_72ce421a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-07-29T22:12:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de3a1b96_a19d9f7c",
+      "revId": "069d7f7413899480f64ae36037534bcaab41b1fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
