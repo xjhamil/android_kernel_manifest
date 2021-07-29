@@ -23,6 +23,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
+  <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
 </manifest>
