@@ -27,4 +27,5 @@
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
 
   <project path="external/stardoc" name="platform/external/stardoc" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
 </manifest>
