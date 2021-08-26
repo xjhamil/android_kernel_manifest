@@ -16,6 +16,23 @@
       "message": "Friendly reminder that this CL still needs to be reviewed :)",
       "revId": "7212e5e057616aac2dec3bc8d3a3e43591fd54b9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8faebd9d_2adce0d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-08-26T22:34:43Z",
+      "side": 1,
+      "message": "For my education, the tl;dr is you want to put u-boot.bin in the boot.img, is that right?",
+      "revId": "7212e5e057616aac2dec3bc8d3a3e43591fd54b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
