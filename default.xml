@@ -9,8 +9,14 @@
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
   </project>
+<<<<<<< HEAD   (73b55c Add bazel_common_rules to repo checkout)
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android13-5.10" />
   <project path="common" name="kernel/common" revision="android13-5.10" />
+=======
+  <project path="common" name="kernel/common" revision="android-mainline">
+    <linkfile src="." dest=".source_date_epoch_dir"/>
+  </project>
+>>>>>>> CHANGE (ede55b Kleaf: add .source_date_epoch_dir)
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
   </project>
