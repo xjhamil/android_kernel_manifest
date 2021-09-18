@@ -5,7 +5,7 @@
 
   <superproject name="kernel/superproject" />
 
-  <project path="build" name="kernel/build" revision="8c0966a12f3ab946e6e91ce20e581953d36434c1" />
+  <project path="build" name="kernel/build" revision="f8ae8a9be8b018ba90a0f576488833fabb3fda74" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="29186c26014764e1ed94548b285b3f020beed758" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="common" name="kernel/common" revision="android12-5.10-2021-09" upstream="android12-5.10-2021-09" dest-branch="android12-5.10-2021-09"  />
   <project path="kernel/tests" name="kernel/tests" revision="c2ea6143e8f1efb9a68cca88159210e16cde1bac" />
