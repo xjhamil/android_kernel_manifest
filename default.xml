@@ -31,4 +31,6 @@
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="external/stardoc" name="platform/external/stardoc" />
+
+  <project path="external/kythe" name="platform/external/kythe" />
 </manifest>
