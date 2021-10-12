@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aab2e65f_e300ef24",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2021-10-12T16:35:40Z",
+      "side": 1,
+      "message": "https://partner-android.googlesource.com/kernel/manifest/+/refs/heads/s-dev-msm-pixel-4.14-sc/default.xml#15\n    \u003clinkfile src\u003d\"build.config.no-cfi\" dest\u003d\"build.config\" /\u003e",
+      "range": {
+        "startLine": 9,
+        "startChar": 39,
+        "endLine": 9,
+        "endChar": 40
+      },
+      "revId": "d21dbd932c1616d841ec85b535892d99c015d4c3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
