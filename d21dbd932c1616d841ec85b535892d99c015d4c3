@@ -22,6 +22,30 @@
       },
       "revId": "d21dbd932c1616d841ec85b535892d99c015d4c3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76d8ca55_5300e5f4",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2021-10-12T17:39:28Z",
+      "side": 1,
+      "message": "This is intentional (to make build.sh work without having to exporting BUILD_CONFIG\u003dprivate/msm-google/build.config.sunfish ) and applies to other branches.  Without this, every target would need to pass a different build config.",
+      "parentUuid": "aab2e65f_e300ef24",
+      "range": {
+        "startLine": 9,
+        "startChar": 39,
+        "endLine": 9,
+        "endChar": 40
+      },
+      "revId": "d21dbd932c1616d841ec85b535892d99c015d4c3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
