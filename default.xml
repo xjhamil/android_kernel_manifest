@@ -12,6 +12,7 @@
 
   <project path="upstream" name="kernel/common" revision="upstream-master" />
   <project path="common-mainline" name="kernel/common" revision="android-mainline" />
+  <project path="common13-5.15" name="kernel/common" revision="android13-5.15" />
   <project path="common13-5.10" name="kernel/common" revision="android13-5.10" />
   <project path="common12-5.10" name="kernel/common" revision="android12-5.10" />
   <project path="common12-5.4" name="kernel/common" revision="android12-5.4" />
