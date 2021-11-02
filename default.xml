@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="android-gs-raviole-mainline" remote="aosp" sync-j="4" />
 
-  <project path="aosp" name="kernel/common" revision="a7e3180850a3b3e3f801dea387a06d03ce1de494" />
+  <project path="aosp" name="kernel/common" revision="d1a66e79429a07256ae93b73d0253283bcc01bd9" />
   <project path="private/gs-google" name="kernel/gs" >
     <linkfile dest="build.config" src="build.config.slider" />
     <linkfile dest="build_slider.sh" src="build_slider.sh" />
