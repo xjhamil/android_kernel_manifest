@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be93a732_c913a2c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-11-03T11:48:27Z",
+      "side": 1,
+      "message": "let\u0027s continue the discussion on the bug/offline to make sure we find the best solution to achieve the denesting without too much fallout",
+      "revId": "66da5fe6bd41e767d0135a46b4b919fce7d693e7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
