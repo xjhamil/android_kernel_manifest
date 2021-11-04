@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6166f32b_09b6a1c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1869395
+      },
+      "writtenOn": "2021-11-04T15:44:27Z",
+      "side": 1,
+      "message": "I based this manifest from `android-gs-raviole-5.10-android12-d1`. It seems we would also want to make some of these changes there?",
+      "revId": "8451e488ebe4064311b1c0c6c88dcedc9acfb040",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

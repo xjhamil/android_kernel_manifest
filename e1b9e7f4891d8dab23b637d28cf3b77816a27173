@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ff7b0e0_d6dd3b02",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1869395
+      },
+      "writtenOn": "2021-11-04T15:44:27Z",
+      "side": 0,
+      "message": "I think we need this. I\u0027m not sure how is used, but it was added as part of the patches for kleaf support.",
+      "range": {
+        "startLine": 12,
+        "startChar": 21,
+        "endLine": 12,
+        "endChar": 42
+      },
+      "revId": "e1b9e7f4891d8dab23b637d28cf3b77816a27173",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
