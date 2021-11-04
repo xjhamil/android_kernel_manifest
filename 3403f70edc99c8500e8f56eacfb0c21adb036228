@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "561726fb_25bc378f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135739
+      },
+      "writtenOn": "2021-11-04T06:49:09Z",
+      "side": 1,
+      "message": "+1. I don\u0027t have +2 permission.",
+      "revId": "3403f70edc99c8500e8f56eacfb0c21adb036228",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
