@@ -28,6 +28,7 @@
   <project path="kernel-trunk/configs" name="kernel/configs"/>
 
   <project path="common-modules/virtual-device-mainline" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="common-modules/virtual-device13-5.15" name="kernel/common-modules/virtual-device" revision="android13-5.15" />
   <project path="common-modules/virtual-device13-5.10" name="kernel/common-modules/virtual-device" revision="android13-5.10" />
   <project path="common-modules/virtual-device12-5.10" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
   <project path="common-modules/virtual-device12-5.4" name="kernel/common-modules/virtual-device" revision="android12-5.4" />
