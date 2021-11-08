@@ -11,9 +11,15 @@
   <project path="external/swig" name="platform/external/swig" revision="master" />
   <project path="external/zlib" name="platform/external/zlib" revision="master" />
   <project path="u-boot" name="platform/external/u-boot" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
+    name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
+    clone-depth="1" revision="0a0604336d4d1067aa1aaef8d3779b31fcee841d" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
+    name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
+    clone-depth="1" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
+    name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
+    clone-depth="1" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
