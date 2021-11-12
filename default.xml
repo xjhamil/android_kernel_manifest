@@ -43,8 +43,10 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/python/six" name="platform/external/python/six" />
   <project path="external/selinux" name="platform/external/selinux" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/starlark-go" name="platform/external/starlark-go" />
@@ -56,6 +58,7 @@
   <project path="system/logging" name="platform/system/logging" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/security" name="platform/system/security" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" />
 
   <!-- target projects -->
