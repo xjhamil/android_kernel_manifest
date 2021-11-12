@@ -16,6 +16,24 @@
       "message": "For platform/external/stg, the project\u0027s revision does not resolve. Missing branch?\n",
       "revId": "8a03bdaeb70eaf89aca6ca2b79118ae63e5f9456",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "317e9e4c_b620fefb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2021-11-12T12:02:43Z",
+      "side": 1,
+      "message": "This looks like a bug in the analyzer (backend). stg:master is perfectly fine, the builds work and local sync was also working. I opened b/206077978 already.",
+      "parentUuid": "8be71940_810aa3a7",
+      "revId": "8a03bdaeb70eaf89aca6ca2b79118ae63e5f9456",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
