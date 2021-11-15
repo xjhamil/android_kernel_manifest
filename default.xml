@@ -10,7 +10,7 @@
   <project path="common" name="kernel/common" revision="android12-5.10-2021-11" upstream="android12-5.10-2021-11" dest-branch="android12-5.10-2021-11" />
   <project path="kernel/tests" name="kernel/tests" revision="c2ea6143e8f1efb9a68cca88159210e16cde1bac" />
   <project path="kernel/configs" name="kernel/configs" revision="c10b7ea022edc356d37c092d7ca46bcb860f8a90" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="0ae1cf21e2192e23141539e565644a9841bf737a" upstream="android12-5.10" dest-branch="android12-5.10" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="272a06c7d90c63f756ee998957609c25ebc6a6cf" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="6e3223f76384455acde43affde3df0ea9df66c0d" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="4e6f66acf138d40d9a80be24b275abb9c6eed729" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="cfedc16ec3deb680fca6fe2aff44a1837a97b50d" />
