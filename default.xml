@@ -4,8 +4,7 @@
   <default revision="android-gs-raviole-mainline" remote="aosp" sync-j="4" />
 
   <project path="common" name="kernel/common" revision="d1a66e79429a07256ae93b73d0253283bcc01bd9" />
-  <project path="gs/kernel" name="kernel/gs" />
-  <project path="gs/kernel/device-modules" name="kernel/google-modules/raviole-device" >
+  <project path="gs/google-modules/raviole-device" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
     <linkfile src="build_mixed.sh" dest="build_mixed.sh" />
