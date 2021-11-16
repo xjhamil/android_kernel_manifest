@@ -6,8 +6,7 @@
   <!-- This has to be clone-depth=1 because we are using an uncommitted change due to clang
        version issues. Once this is resolved, we can drop the clone-depth=1 part. -->
   <project path="common" name="kernel/common" revision="b62a5f6d62b49d1c6a9dd2fc31ede0b08428b7e1" clone-depth="1" />
-  <project path="gs/kernel" name="kernel/gs" />
-  <project path="gs/kernel/device-modules" name="kernel/google-modules/raviole-device" >
+  <project path="gs/google-modules/raviole-device" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
     <linkfile src="build_mixed.sh" dest="build_mixed.sh" />
