@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3931ad11_04f31e6f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-11-17T04:46:05Z",
+      "side": 1,
+      "message": "I think you have to update the BUILD.bazel files under gs/google-modules/** as well",
+      "range": {
+        "startLine": 8,
+        "startChar": 17,
+        "endLine": 8,
+        "endChar": 49
+      },
+      "revId": "8e2d30d54c86e754bb84359c5659e937f9981550",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
