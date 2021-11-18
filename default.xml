@@ -33,6 +33,7 @@
   <project path="external/dwarves" name="platform/external/dwarves" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fmtlib" name="platform/external/fmtlib" />
   <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk" />
