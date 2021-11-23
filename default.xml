@@ -10,6 +10,7 @@
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
     <linkfile src="build_mixed.sh" dest="build_mixed.sh" />
     <linkfile dest=".source_date_epoch_dir" src="." />
+    <linkfile dest="gs/kernel/arch/arm64/boot/dts/google" src="arch/arm64/boot/dts/google" />
   </project>
 
   <project path="gs/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
