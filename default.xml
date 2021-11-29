@@ -6,6 +6,7 @@
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" />
   <project path="build" name="kernel/build" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="master" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="master" />
   <project path="external/dtc" name="platform/external/dtc" revision="master" />
   <project path="external/swig" name="platform/external/swig" revision="master" />
