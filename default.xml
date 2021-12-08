@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
+  <default upstream="master-kernel-build-2021" dest-branch="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp"/>
+  <superproject name="kernel/superproject" />
 
-  <project path="build" name="kernel/build" />
-  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
-  <project path="common" name="kernel/common" revision="android12-5.10" />
-  <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="build" name="kernel/build" revision="f8ae8a9be8b018ba90a0f576488833fabb3fda74" />
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="29186c26014764e1ed94548b285b3f020beed758" upstream="android12-5.10" dest-branch="android12-5.10"/>
+  <project path="common" name="kernel/common" revision="android12-5.10-2021-12" upstream="android12-5.10-2021-12" dest-branch="android12-5.10-2021-12" />
+  <project path="kernel/tests" name="kernel/tests" revision="c2ea6143e8f1efb9a68cca88159210e16cde1bac"/>
+  <project path="kernel/configs" name="kernel/configs" revision="c10b7ea022edc356d37c092d7ca46bcb860f8a90"/>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="253ee6f2bc4e44cb2419f3278267c13344de7143" upstream="android12-5.10" dest-branch="android12-5.10" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="6e3223f76384455acde43affde3df0ea9df66c0d"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="4e6f66acf138d40d9a80be24b275abb9c6eed729" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="cfedc16ec3deb680fca6fe2aff44a1837a97b50d" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="a5fcf02304b51f43d2c8bfd587e26755e3ce2701" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" />
 </manifest>
