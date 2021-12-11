@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="android-gs-raviole-mainline" remote="aosp" sync-j="4" />
 
-  <project path="common" name="kernel/common" revision="d1a66e79429a07256ae93b73d0253283bcc01bd9" />
+  <project path="common" name="kernel/common" revision="b62a5f6d62b49d1c6a9dd2fc31ede0b08428b7e1" />
   <project path="gs/kernel" name="kernel/gs" />
   <project path="gs/kernel/device-modules" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
