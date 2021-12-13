@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fb953c4_d370236c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1882526
+      },
+      "writtenOn": "2021-12-13T09:17:04Z",
+      "side": 1,
+      "message": "Should we pin it to a particular commit to make the U-Boot build stable as it depends on much more than just an API (file locations, include paths, ...)?",
+      "range": {
+        "startLine": 9,
+        "startChar": 72,
+        "endLine": 9,
+        "endChar": 74
+      },
+      "revId": "58dd58f194244c15f6da1796cb73848f525372b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
