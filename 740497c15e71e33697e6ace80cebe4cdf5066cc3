@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf85fa2b_d5b452fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-12-21T01:15:18Z",
+      "side": 1,
+      "message": "ERROR: /mnt/sdc/android/kernel/WORKSPACE.bazel:17:1: name \u0027toplevel_output_directories\u0027 is not defined",
+      "revId": "740497c15e71e33697e6ace80cebe4cdf5066cc3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
