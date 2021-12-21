@@ -7,7 +7,7 @@
 
   <project path="build" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
-    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE.bazel" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" >
     <linkfile src="." dest=".source_date_epoch_dir" />
