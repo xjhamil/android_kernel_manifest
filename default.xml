@@ -7,7 +7,6 @@
   <project path="gs/kernel/device-modules" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
-    <linkfile src="build_mixed.sh" dest="build_mixed.sh" />
     <linkfile dest=".source_date_epoch_dir" src="." />
   </project>
 
