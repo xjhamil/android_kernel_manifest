@@ -22,6 +22,30 @@
       },
       "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f01f8db6_4493e1fd",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-01-11T02:52:23Z",
+      "side": 1,
+      "message": "I know. I just want to do the denest (this CL) ASAP, and clean up later; because this CL affects how partners will use kleaf (build/kleaf vs build/kernel/kleaf)",
+      "parentUuid": "1e50f9d9_30788803",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 65
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
