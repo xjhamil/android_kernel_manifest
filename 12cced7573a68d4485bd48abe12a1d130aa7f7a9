@@ -48,6 +48,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c76b056b_2e409336",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-01-12T21:00:14Z",
+      "side": 1,
+      "message": "resolving",
+      "parentUuid": "1c057431_6559fd68",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 52
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e50f9d9_30788803",
