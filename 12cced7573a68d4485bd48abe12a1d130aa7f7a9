@@ -188,6 +188,30 @@
       },
       "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f8c6964_192b1b78",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-01-12T21:00:33Z",
+      "side": 1,
+      "message": "resolving",
+      "parentUuid": "dedeaecc_82992345",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 12
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
