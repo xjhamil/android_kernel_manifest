@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e372c1d5_08cb3d89",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2022-01-12T08:56:48Z",
+      "side": 1,
+      "message": "What about the build.config symlink, does this need any attention?\n\nHow about synchronize_owners?",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 52
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e50f9d9_30788803",
         "filename": "default.xml",
         "patchSetId": 3
@@ -67,6 +90,29 @@
         "startChar": 0,
         "endLine": 14,
         "endChar": 65
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "727e4e76_0c9bbadc",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2022-01-12T08:56:48Z",
+      "side": 1,
+      "message": "It looks like the symbolic links are for forwards compatibility, not backwards compatibility. Why not do things the other way around? Then the TODO is really about removing a symlink. Otherwise the TODO should say \"change obsolete path to current symlink target\".\n\nOr have I missed something?",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 12
       },
       "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
