@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1c057431_6559fd68",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-01-12T20:59:47Z",
+      "side": 1,
+      "message": "build.config symlink: No. For the common-android-mainline we don\u0027t have this symlink. Even on other device kernel repos, the symlink points to a config not in build/.\n\nsynchronize_owners does not appear to be used anywhere, so it should be safe to drop.",
+      "parentUuid": "e372c1d5_08cb3d89",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 52
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e50f9d9_30788803",
         "filename": "default.xml",
         "patchSetId": 3
@@ -108,6 +132,30 @@
       "writtenOn": "2022-01-12T08:56:48Z",
       "side": 1,
       "message": "It looks like the symbolic links are for forwards compatibility, not backwards compatibility. Why not do things the other way around? Then the TODO is really about removing a symlink. Otherwise the TODO should say \"change obsolete path to current symlink target\".\n\nOr have I missed something?",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 12
+      },
+      "revId": "12cced7573a68d4485bd48abe12a1d130aa7f7a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dedeaecc_82992345",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-01-12T20:59:47Z",
+      "side": 1,
+      "message": "No, this is \"backwards compatibility\". The problem here is that there\u0027s still code pointing to `build/build-tools/sysroot`: exactly one place in https://cs.android.com/android/kernel/superproject/+/common-android-mainline:build/_setup_env.sh;l\u003d124;drc\u003d7ec7f3875ee8db7ab9e768748414181177063d33\n\nOnce I fix that, and I fix the symlinks under build/build-tools/sysroot, then I can drop these symlinks.",
+      "parentUuid": "727e4e76_0c9bbadc",
       "range": {
         "startLine": 36,
         "startChar": 0,
