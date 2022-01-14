@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android-gs-raviole-mainline" remote="aosp" sync-j="4" />
+  <default revision="android13-gs-raviole-5.15" remote="aosp" sync-j="4" />
 
   <project path="common" name="kernel/common" revision="android13-5.15" />
   <project path="gs/kernel/device-modules" name="kernel/google-modules/raviole-device" >
