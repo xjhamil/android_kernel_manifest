@@ -4,7 +4,7 @@
   <default revision="android13-gs-raviole-5.15" remote="aosp" sync-j="4" />
 
   <project path="common" name="kernel/common" revision="android13-5.15" />
-  <project path="gs/kernel/device-modules" name="kernel/google-modules/raviole-device" >
+  <project path="gs/google-modules/soc-modules" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
     <linkfile dest=".source_date_epoch_dir" src="." />
