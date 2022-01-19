@@ -16,6 +16,24 @@
       "message": "I don\u0027t see a default revision for the remote aosp. Should an explicit revision be added to the superproejct?\n\nie.\n`\u003csuperproject name\u003d\"kernel/superproject\" revision\u003d\"common-android12-5.10-2021-08\" /\u003e`",
       "revId": "7323ebff0ace3d1d9285037348f3c54947c5d6e1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87062bf5_a5138ee2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-01-19T23:50:13Z",
+      "side": 1,
+      "message": "Is this required for the superproject functionality to work? For those branches, _all_ repos are pinned to a SHA.",
+      "parentUuid": "42b49c34_96260020",
+      "revId": "7323ebff0ace3d1d9285037348f3c54947c5d6e1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
