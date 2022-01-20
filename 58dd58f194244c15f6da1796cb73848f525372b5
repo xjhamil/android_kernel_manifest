@@ -70,6 +70,30 @@
       },
       "revId": "58dd58f194244c15f6da1796cb73848f525372b5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0db77457_a5e811b9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2022-01-20T17:58:37Z",
+      "side": 1,
+      "message": "But perhaps as a follow-up, we can add the u-boot presubmits to the boringssl project so that boringssl cannot be rolled forward without us fixing u-boot..",
+      "parentUuid": "c96e9766_37b42fbe",
+      "range": {
+        "startLine": 9,
+        "startChar": 72,
+        "endLine": 9,
+        "endChar": 74
+      },
+      "revId": "58dd58f194244c15f6da1796cb73848f525372b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
