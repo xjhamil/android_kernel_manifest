@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f9a0849_7ba6f40f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2022-01-20T04:46:41Z",
+      "side": 1,
+      "message": "Please use:\n\n```\n\u003csuperproject name\u003d\"kernel/superproject\" revision\u003d\"android12-5.10-2022-01\" upstream\u003d\"android12-5.10-2022-01\" dest-branch\u003d\"android12-5.10-2022-01\" /\u003e\n```\nThe original setting is a typo. The \"remote\" is already in \"default\".\n\nThank you very much!",
+      "range": {
+        "startLine": 6,
+        "startChar": 2,
+        "endLine": 6,
+        "endChar": 58
+      },
+      "revId": "831b1b65eca719438f0f314d8e33225d59c55cc8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
