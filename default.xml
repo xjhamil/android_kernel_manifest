@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default upstream="master-kernel-build-2021" dest-branch="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10-m2107" />
 
   <project path="build" name="kernel/build" revision="4346db81411b04ab61bb28266a8701bf9510f71a" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="29186c26014764e1ed94548b285b3f020beed758" upstream="android12-5.10" dest-branch="android12-5.10" />
