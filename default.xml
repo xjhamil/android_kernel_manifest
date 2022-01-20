@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="android13-gs-raviole-5.15" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp"/>
+  <superproject name="kernel/superproject" remote="aosp" revision="gs-android13-gs-raviole-5.15" />
 
   <project path="common" name="kernel/common" revision="android13-5.15" />
   <project path="gs/google-modules/soc-modules" name="kernel/google-modules/raviole-device" >
