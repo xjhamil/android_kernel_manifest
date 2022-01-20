@@ -5,7 +5,8 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="gs-android-gs-raviole-mainline" />
 
-  <project path="common" name="kernel/common" revision="android13-5.15" />
+  <!-- ACK tag: android-mainline-5.16 - 6e9d208fdc7b8 ("Merge 5.16 into android-mainline") -->
+  <project path="common" name="kernel/common" revision="6e9d208fdc7b831d223c4d9b9e6a776adaa2fd45" />
   <project path="gs/google-modules/soc-modules" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
@@ -50,7 +51,8 @@
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
   <project path="kernel/configs" name="kernel/configs" revision="master" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="master" clone-depth="1" />
+  <!-- TODO(b/216121984): Switch revision back to master after ACK v5.16 dependency is resolved -->
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="64ea0eeda920f7d9ebee086bade1963f115b0a4a" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="master" clone-depth="1" >
     <!-- TODO(b/204425264): Remove unused scripts and unused symlinks -->
     <linkfile src="sysroot" dest="build/build-tools/sysroot" />
