@@ -4,7 +4,7 @@
            review="https://android-review.googlesource.com/" />
   <default revision="master" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp"/>
+  <superproject name="kernel/superproject" remote="aosp" revision="build-tools" />
 
   <!-- build projects -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
