@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39d7a71c_d7079a59",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2022-01-20T04:42:43Z",
+      "side": 1,
+      "message": "Please use:\n\n```\n\u003csuperproject name\u003d\"kernel/superproject\" revision\u003d\"android12-5.10-2021-11\" upstream\u003d\"android12-5.10-2021-11\" dest-branch\u003d\"android12-5.10-2021-11\" /\u003e\n```\n(like project \u0027kernel/common\u0027)\n\nThank you very much!",
+      "range": {
+        "startLine": 6,
+        "startChar": 2,
+        "endLine": 6,
+        "endChar": 58
+      },
+      "revId": "ea3660d2b491599e9a9f4d3967c235eb9a29b14e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
