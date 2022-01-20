@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8693d23e_6f9a75d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-01-20T22:58:16Z",
+      "side": 1,
+      "message": "unrelated test issue",
+      "revId": "75fd720d24bdd6a0fe8a4abb94db56d193f631a8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "117acb05_7432394c",
@@ -14,6 +31,30 @@
       "writtenOn": "2022-01-20T19:05:35Z",
       "side": 1,
       "message": "The default revision of this remote is \"android-gs-raviole-mainline\" but there is no superproject at that revision. https://android.googlesource.com/kernel/superproject/+/android-gs-raviole-mainline\n\nIt looks like the revision should be \"gs-android-gs-raviole-mainline\"?",
+      "range": {
+        "startLine": 6,
+        "startChar": 51,
+        "endLine": 6,
+        "endChar": 55
+      },
+      "revId": "75fd720d24bdd6a0fe8a4abb94db56d193f631a8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d666fdb7_03674eee",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-01-20T22:58:16Z",
+      "side": 1,
+      "message": "Ack. Will fix that separately",
+      "parentUuid": "117acb05_7432394c",
       "range": {
         "startLine": 6,
         "startChar": 51,
