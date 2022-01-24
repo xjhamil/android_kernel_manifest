@@ -16,6 +16,24 @@
       "message": "Waiting on https://android-review.googlesource.com/q/hashtag:kernel-denest+repo:kernel/manifest",
       "revId": "4e2d9983114286462733cbee9d214d1cea607742",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "174a3836_8e8d4223",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-01-24T17:13:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f29c375d_e2c9df68",
+      "revId": "4e2d9983114286462733cbee9d214d1cea607742",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
