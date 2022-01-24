@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "662b25a3_304ce31d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-01-24T22:43:02Z",
+      "side": 1,
+      "message": "Hi Xin,\n  I can only do CR+1.",
+      "revId": "b5d562b2a078dbd69c40427b49a535c135fc2f9d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
