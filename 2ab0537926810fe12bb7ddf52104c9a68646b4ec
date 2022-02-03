@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bea2049_2c94940c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-02-03T23:08:17Z",
+      "side": 1,
+      "message": "Waiting on the rest of https://android-review.googlesource.com/q/hashtag:kleaf-denest-targets+(status:open%20OR%20status:merged)",
+      "revId": "2ab0537926810fe12bb7ddf52104c9a68646b4ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
