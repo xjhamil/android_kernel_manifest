@@ -12,9 +12,12 @@
     <linkfile src="build_abi.sh" dest="build/build_abi.sh" />
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
+<<<<<<< HEAD   (7083cd Drop build/kleaf symlink.)
     <!-- TODO(b/204425264): Remove unused scripts and unused symlinks -->
     <linkfile src="BUILD.bazel" dest="build/BUILD.bazel" />
     <linkfile src="build-tools/path" dest="build/build-tools/path" />
+=======
+>>>>>>> CHANGE (bc4845 kleaf: Delete build/BUILD.bazel symlink.)
     <linkfile src="config.sh" dest="build/config.sh" />
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="_setup_env.sh" dest="build/_setup_env.sh" />
