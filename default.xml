@@ -19,8 +19,6 @@
   <project path="gs/google-modules/bms" name="kernel/google-modules/bms" />
   <project path="gs/google-modules/display" name="kernel/google-modules/display" />
   <project path="gs/google-modules/edgetpu" name="kernel/google-modules/edgetpu" />
-  <project path="gs/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" />
-  <project path="gs/google-modules/fingerprint/goodix" name="kernel/google-modules/fingerprint/goodix" />
   <project path="gs/google-modules/gpu" name="kernel/google-modules/gpu" />
   <project path="gs/google-modules/lwis" name="kernel/google-modules/lwis" />
   <project path="gs/google-modules/power/reset" name="kernel/google-modules/power/reset" />
