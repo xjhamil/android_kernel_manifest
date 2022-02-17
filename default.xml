@@ -5,11 +5,12 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="gs-android-gs-raviole-mainline" />
 
-  <project path="common" name="kernel/common" revision="android-mainline" />
+  <project path="common" name="kernel/common" revision="android-mainline" >
+    <linkfile dest=".source_date_epoch_dir" src="." />
+  </project>
   <project path="gs/google-modules/soc-modules" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
-    <linkfile dest=".source_date_epoch_dir" src="." />
   </project>
 
   <project path="gs/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
