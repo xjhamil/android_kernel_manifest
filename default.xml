@@ -5,11 +5,16 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="gs-android13-gs-raviole-5.15" />
 
+<<<<<<< HEAD   (6a55b5 fix superproject definition: include revision)
   <project path="common" name="kernel/common" revision="android13-5.15" />
+=======
+  <project path="common" name="kernel/common" revision="android-mainline" >
+    <linkfile dest=".source_date_epoch_dir" src="." />
+  </project>
+>>>>>>> CHANGE (c97e9e kleaf: .source_date_epoch_dir now points to common/)
   <project path="gs/google-modules/soc-modules" name="kernel/google-modules/raviole-device" >
     <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
-    <linkfile dest=".source_date_epoch_dir" src="." />
   </project>
 
   <project path="gs/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
