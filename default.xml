@@ -51,6 +51,7 @@
   <project path="external/python/six" name="platform/external/python/six" />
   <project path="external/selinux" name="platform/external/selinux" />
   <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <project path="external/starlark-go" name="platform/external/starlark-go" />
   <project path="external/stg" name="platform/external/stg" />
   <project path="external/swig" name="platform/external/swig" />
