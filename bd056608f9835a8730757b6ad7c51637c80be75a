@@ -22,6 +22,30 @@
       },
       "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "108355b5_73c0cdeb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1858345
+      },
+      "writtenOn": "2022-03-30T18:22:02Z",
+      "side": 1,
+      "message": "*ndk vs the other prebuilts clang project",
+      "parentUuid": "0331971f_902ff1a8",
+      "range": {
+        "startLine": 41,
+        "startChar": 38,
+        "endLine": 41,
+        "endChar": 65
+      },
+      "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
