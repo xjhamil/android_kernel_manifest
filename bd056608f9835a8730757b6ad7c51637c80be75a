@@ -87,6 +87,48 @@
       "message": "this will collide if we combine kernel and platform manifests:\n\nthe platform defines:\n\n  \u003cproject path\u003d\"prebuilts/ndk\" name\u003d\"platform/prebuilts/ndk\" groups\u003d\"pdk\" clone-depth\u003d\"1\" /\u003e\nhttps://android.googlesource.com/platform/manifest/+/refs/heads/master/default.xml#1044",
       "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a06f7680_85838c1e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2022-03-31T17:18:46Z",
+      "side": 1,
+      "message": "Also, while the initial support of UAPI header tests will use a prebuilt bionic provided by the NDK (which also includes yet another copy of the prebuilt AOSP LLVM), once we\u0027ve transitioned Android kernel builds to kleaf then we can drastically simplify the dependencies by building bionic from source via Bazel. At that point, we can drop the NDK prebuilt dependency.",
+      "parentUuid": "167aa513_2807f8c3",
+      "range": {
+        "startLine": 41,
+        "startChar": 38,
+        "endLine": 41,
+        "endChar": 65
+      },
+      "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d6301b4_53a7a11e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2022-03-31T17:18:46Z",
+      "side": 1,
+      "message": "Are we moving kernel builds into the platform builds?\n\nDo standalone kernel builds need to continue to work until such a transition? If so, then it sounds like the combined platform+kernel build MUST checkout the NDK TWICE.  Then do you have an opinion on what I call this checkout?\n\nOtherwise, if we\u0027re just going to cut over to combined platform+kernel builds and disable/spin down the current kernel builds, then I could probably drop this change outright and simply use the platform\u0027s NDK prebuilt checkout. But I\u0027m guessing we\u0027re not ready to do so quite yet?",
+      "parentUuid": "101c9e4d_2e4ee93d",
+      "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
