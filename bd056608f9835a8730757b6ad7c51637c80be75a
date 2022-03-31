@@ -70,6 +70,23 @@
       },
       "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "101c9e4d_2e4ee93d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-03-31T14:57:01Z",
+      "side": 1,
+      "message": "this will collide if we combine kernel and platform manifests:\n\nthe platform defines:\n\n  \u003cproject path\u003d\"prebuilts/ndk\" name\u003d\"platform/prebuilts/ndk\" groups\u003d\"pdk\" clone-depth\u003d\"1\" /\u003e\nhttps://android.googlesource.com/platform/manifest/+/refs/heads/master/default.xml#1044",
+      "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
