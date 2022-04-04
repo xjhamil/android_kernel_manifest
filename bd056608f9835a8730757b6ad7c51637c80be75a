@@ -129,6 +129,24 @@
       "parentUuid": "101c9e4d_2e4ee93d",
       "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64c21b17_d66dcd90",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2022-04-04T21:22:56Z",
+      "side": 1,
+      "message": "Moved to prebuilts/ndk-r23",
+      "parentUuid": "3d6301b4_53a7a11e",
+      "revId": "bd056608f9835a8730757b6ad7c51637c80be75a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
