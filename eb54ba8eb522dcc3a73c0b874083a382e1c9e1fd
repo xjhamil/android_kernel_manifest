@@ -16,6 +16,24 @@
       "message": "I think I might need to specify the XML attribute revision\u003d\"master\" for this change, since this manifest has a different default revision.",
       "revId": "eb54ba8eb522dcc3a73c0b874083a382e1c9e1fd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "366322aa_74dccfe6",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2022-04-04T22:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3d6975fa_9ba84d5d",
+      "revId": "eb54ba8eb522dcc3a73c0b874083a382e1c9e1fd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
