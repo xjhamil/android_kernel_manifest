@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d6975fa_9ba84d5d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2022-04-04T22:08:48Z",
+      "side": 1,
+      "message": "I think I might need to specify the XML attribute revision\u003d\"master\" for this change, since this manifest has a different default revision.",
+      "revId": "eb54ba8eb522dcc3a73c0b874083a382e1c9e1fd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
