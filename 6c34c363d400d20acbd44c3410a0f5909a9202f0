@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2edc5d7a_47156b4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-04-05T21:35:41Z",
+      "side": 1,
+      "message": "Not sure if related but now I see:\n\nrepo superproject branch: gs-android-gs-raviole-mainline url: https://android.googlesource.com/kernel/superproject warning: please file a bug using https://bugs.chromium.org/p/gerrit/issues/entry?template\u003dRepo+tool+issue to report missing commit_ids for: [\u0027prebuilts/ndk-r23\u0027]\n",
+      "revId": "6c34c363d400d20acbd44c3410a0f5909a9202f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
