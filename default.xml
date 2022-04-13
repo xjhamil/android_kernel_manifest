@@ -33,5 +33,6 @@
     <!-- TODO(b/204425264): Remove unused scripts and unused symlinks -->
     <linkfile src="." dest="build/prebuilts/kernel-build-tools" />
   </project>
+  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
