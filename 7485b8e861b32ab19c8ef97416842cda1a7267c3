@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ffc1ea9_f9ca5a1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2022-04-19T02:57:08Z",
+      "side": 1,
+      "message": "Hi Todd, sorry that I don\u0027t have a solution to test the rule before applying it.",
+      "revId": "7485b8e861b32ab19c8ef97416842cda1a7267c3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
