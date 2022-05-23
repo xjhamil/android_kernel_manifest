@@ -3,6 +3,25 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master" remote="aosp" sync-j="4" />
 
+  <remote name="cros"
+          fetch="https://chromium.googlesource.com"
+          review="https://chromium-review.googlesource.com">
+    <annotation name="public" value="true" />
+  </remote>
+  <remote name="chromium"
+          alias="cros"
+          fetch="https://chromium.googlesource.com/">
+    <annotation name="public" value="true" />
+  </remote>
+
+  <project path="v5.10-arcvm"
+           name="chromiumos/third_party/kernel"
+           remote="cros"
+           revision="refs/heads/chromeos-5.10-arcvm" />
+  <project path="common"
+           name="kernel/arcvm-modules/common" />
+
+  <!--
   <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.15" />
 
   <project path="build/kernel" name="kernel/build" >
@@ -39,4 +58,5 @@
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="external/stardoc" name="platform/external/stardoc" />
+  -->
 </manifest>
