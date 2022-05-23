@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5952f624_5eb7f80f",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2022-05-23T18:01:23Z",
+      "side": 1,
+      "message": "Is this a duplicate of the remote on line 6?",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 0
+      },
+      "revId": "7c43b026ef6ddab3f8b9da7bc4f0f74ef5e35795",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e5277e5_4719cc1b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2022-05-23T18:01:23Z",
+      "side": 1,
+      "message": "you can drop this part and just use the branch name.",
+      "range": {
+        "startLine": 20,
+        "startChar": 21,
+        "endLine": 20,
+        "endChar": 32
+      },
+      "revId": "7c43b026ef6ddab3f8b9da7bc4f0f74ef5e35795",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "598b05e5_062828e6",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2022-05-23T18:01:23Z",
+      "side": 1,
+      "message": "nit: Since this project is going to use the GKI kernel, I would recommend using a path name that is a little more descriptive and isn\u0027t the same name as what the Android Common Kernels use for the kernel path. For example, you could use the name \"common-modules\" similar to what cuttlefish uses or \"arcvm-modules\" which describes that this project contains kernel modules. It\u0027s up to you though since it\u0027s your project :).",
+      "range": {
+        "startLine": 21,
+        "startChar": 17,
+        "endLine": 21,
+        "endChar": 23
+      },
+      "revId": "7c43b026ef6ddab3f8b9da7bc4f0f74ef5e35795",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
