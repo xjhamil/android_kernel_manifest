@@ -3,8 +3,21 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.15" />
+  <remote name="cros"
+          fetch="https://chromium.googlesource.com"
+          review="https://chromium-review.googlesource.com">
+    <annotation name="public" value="true" />
+  </remote>
 
+  <!-- CrOS specific repos -->
+  <project path="v5.10-arcvm"
+           name="chromiumos/third_party/kernel"
+           remote="cros"
+           revision="chromeos-5.10-arcvm" />
+  <project path="arcvm-modules"
+           name="kernel/arcvm-modules/common" />
+
+  <!-- Upstream Android repos -->
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
@@ -19,15 +32,9 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
-  <project path="common" name="kernel/common" revision="android13-5.15" >
-    <linkfile src="." dest=".source_date_epoch_dir" />
-  </project>
   <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" revision="master" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android13-5.15" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
