@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "17f40c34_d610e81c",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "fbedb5b0_92233093",
+      "range": {
+        "startLine": 1,
+        "startChar": 2,
+        "endLine": 1,
+        "endChar": 5
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "daf128d4_c0e3a5b1",
@@ -47,6 +71,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "58798ef0_fca027ad",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "daf128d4_c0e3a5b1",
+      "range": {
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 15
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "477f53e3_73ad107c",
@@ -60,6 +108,30 @@
       "writtenOn": "2022-05-26T16:23:11Z",
       "side": 0,
       "message": "You can replace this with your kernel which looks like chromiumos/third_party/kernel",
+      "range": {
+        "startLine": 22,
+        "startChar": 3,
+        "endLine": 22,
+        "endChar": 10
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0151ec64_1325fa47",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "477f53e3_73ad107c",
       "range": {
         "startLine": 22,
         "startChar": 3,
@@ -95,6 +167,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "94dbe787_45e6f2db",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Is this for testing the kernel itself? Or for running tests in general?",
+      "parentUuid": "a4ec2628_2a6abc9b",
+      "range": {
+        "startLine": 25,
+        "startChar": 3,
+        "endLine": 25,
+        "endChar": 10
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7d703dc4_68a10a04",
         "filename": "default.xml",
         "patchSetId": 3
@@ -106,6 +202,30 @@
       "writtenOn": "2022-05-26T16:23:11Z",
       "side": 0,
       "message": "I don\u0027t think you need this",
+      "range": {
+        "startLine": 26,
+        "startChar": 3,
+        "endLine": 26,
+        "endChar": 10
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "758e8fbe_3481b64b",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "7d703dc4_68a10a04",
       "range": {
         "startLine": 26,
         "startChar": 3,
@@ -139,6 +259,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "563e407d_7f7b2c68",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "e4adaf4f_287b65ef",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 120
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a286bee6_1267c797",
@@ -152,6 +296,30 @@
       "writtenOn": "2022-05-26T16:23:11Z",
       "side": 0,
       "message": "you can drop this if you don\u0027t plan to use it. We use this on pixel to hold Android-specific artifacts like the ramdisk.",
+      "range": {
+        "startLine": 30,
+        "startChar": 3,
+        "endLine": 30,
+        "endChar": 10
+      },
+      "revId": "af1e65a1f22686ff946032edfb56a63f6b6efc57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4b198c8_633f99d8",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-05-31T17:20:52Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "a286bee6_1267c797",
       "range": {
         "startLine": 30,
         "startChar": 3,
