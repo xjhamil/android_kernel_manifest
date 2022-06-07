@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b924787_a6fc927a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1952665
+      },
+      "writtenOn": "2022-06-07T22:35:36Z",
+      "side": 1,
+      "message": "ooc, is there a reason why we do not have an owner for this file or any other manifest files?",
+      "revId": "695d294bd7c5fc572acca1f0c8dea6618f60362b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "0064d6f4_38276f94",
