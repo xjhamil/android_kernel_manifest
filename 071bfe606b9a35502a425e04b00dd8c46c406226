@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8a3f83b_87924079",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-06-08T22:17:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e147e2e6_44deb2b8",
+      "range": {
+        "startLine": 6,
+        "startChar": 67,
+        "endLine": 6,
+        "endChar": 88
+      },
+      "revId": "071bfe606b9a35502a425e04b00dd8c46c406226",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "99288ae0_7ddbc074",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-06-08T22:02:17Z",
       "side": 1,
       "message": "You probably don\u0027t need this unless you plan on compiling the cuttlefish build. This project just includes build configs and kernel modules specifically for cuttlefish.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 120
+      },
+      "revId": "071bfe606b9a35502a425e04b00dd8c46c406226",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96ce9d54_adbd16d7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1370197
+      },
+      "writtenOn": "2022-06-08T22:17:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99288ae0_7ddbc074",
       "range": {
         "startLine": 13,
         "startChar": 0,
