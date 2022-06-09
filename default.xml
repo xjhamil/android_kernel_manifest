@@ -5,6 +5,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.15-arcvm" />
 
+  <project path="arcvm-modules" name="kernel/arcvm-modules/common" revision="master" />
   <project path="build" name="kernel/build" />
   <project path="common" name="kernel/common" revision="arcvm12-5.10" />
   <project path="kernel/tests" name="kernel/tests" />
