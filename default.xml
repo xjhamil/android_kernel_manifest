@@ -73,4 +73,5 @@
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" revision="master" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="master" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" revision="master" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" />
 </manifest>
