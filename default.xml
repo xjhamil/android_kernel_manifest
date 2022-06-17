@@ -67,10 +67,21 @@
   </project>
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="master" clone-depth="1" />
 
+<<<<<<< HEAD   (49d43e add NDK prebuilts for bionic)
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="master" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" revision="master" clone-depth="1" />
   <project path="external/stardoc" name="platform/external/stardoc" revision="master" clone-depth="1" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" revision="master" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="master" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" revision="master" />
+=======
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
+
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
+  <project path="external/stardoc" name="platform/external/stardoc" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" />
+>>>>>>> CHANGE (d0b423 Add absl-py.)
 </manifest>
