@@ -7,7 +7,7 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader"
-    revision="693a40d341e251ac8f2768a739d6b58471dbc5f6" />
+    revision="1329532a6eb7be8d162e838539c8cf65ae9aa3e5" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="build.sh" dest="build/build.sh" />
     <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
@@ -16,17 +16,17 @@
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"
     revision="f4dc25e77d057de867462e9a5a14548b1164545f" />
   <project path="external/boringssl" name="platform/external/boringssl"
-    revision="abd455b494b016109d2bfd1ca7a29619fb4c35a3" />
+    revision="538c627f256dc8eac8c8817763b8b39cbb61d06f" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt"
     revision="c4b55a3176985b7f286984ab1972f9efbf25a5ac" />
   <project path="external/dtc" name="platform/external/dtc"
-    revision="4bd86627f0e9e9e25b5c404c912054154af57e43" />
+    revision="85189c3a6a0e7b536d9d113877a4c135a663e706" />
   <project path="external/open-dice" name="platform/external/open-dice"
-    revision="48afdc1772f38624460eb52ab5c2dd1b41b2ec39" />
+    revision="7746483f34d04e45d45b9c7d0652609f6e3d7991" />
   <project path="external/swig" name="platform/external/swig"
     revision="0ffab894f917fcbbd031eaab870fbabaefe5daaa" />
   <project path="external/zlib" name="platform/external/zlib"
-    revision="2925aed7a7338bce7e159a37c75d3533277d05bb" />
+    revision="d77d8fb9d2816c12ea734a191852b5f103ea4da1" />
   <project path="u-boot" name="platform/external/u-boot" revision="android13" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
@@ -36,17 +36,17 @@
     clone-depth="1" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
-    clone-depth="1" revision="007101a451907c5369db5002ddf7b14dcefb7864" />
+    clone-depth="1" revision="e49b4b3477381d23fd9172221f5c8d9199d30fe6" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     clone-depth="1" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" />
   <project path="prebuilts-master/clang/host/linux-x86"
     name="platform/prebuilts/clang/host/linux-x86"
-    clone-depth="1" revision="0fc0715d9392ca616605c07750211d7ca71f4e36" />
+    clone-depth="1" revision="87131131ccc7944cd31506568d30fc4f1ed4c4cc" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1"
-    revision="726120a5ae386597b8b8b1f79c30c25ff1c5f9de" />
+    revision="a27ea95f95fce2573d675c9f9239a00764068b2f" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1"
-    revision="cdeb8abef0201f8351abf9597b1c979df52d6c25" />
+    revision="87c786adc3e4687344a6af2dafb345fe5de0869a" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"
-    revision="2208a03d874255af1e4eaf6cf7c156fe1dc98943" />
+    revision="3886f4a68b9802bc4e13a75b82c756981dc924e2" />
 </manifest>
