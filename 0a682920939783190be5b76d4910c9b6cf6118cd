@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "076bd590_b72e4375",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-07-12T19:11:14Z",
+      "side": 1,
+      "message": "BCO since I lack +2 for some reason.",
+      "revId": "0a682920939783190be5b76d4910c9b6cf6118cd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
