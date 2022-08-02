@@ -20,7 +20,7 @@
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
   <project path="hikey-modules" name="kernel/hikey-modules" revision="8864304543d16b95c9c268e4e156601ef9b499e7" upstream="android13-5.10" dest-branch="android13-5.10" />
-  <project path="common" name="kernel/common" revision="android13-5.10-2022-06" upstream="android13-5.10" dest-branch="android13-5.10">
+  <project path="common" name="kernel/common" revision="android13-5.10-2022-06" upstream="android13-5.10-2022-06" dest-branch="android13-5.10-2022-06">
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   <project path="kernel/common-patches" name="kernel/common-patches" revision="c0f06a2c8d7cbcdf2459684c6ac0151dfbf166f2">
