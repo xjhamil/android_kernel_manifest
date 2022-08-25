@@ -1,0 +1,4 @@
+[submodule "common-android13-5.15"]
+	path = common-android13-5.15
+	url = https://android.googlesource.com/kernel/manifest
+	branch = common-android13-5.15
