@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <include name="common-android13-5.15/common.xml" />
   <default revision="android13-gs-raviole-5.15" remote="aosp" sync-j="4" />
-
   <superproject name="kernel/superproject" remote="aosp" revision="gs-android13-gs-raviole-5.15" />
-
-  <submanifest name="common-android13-5.15"
-    remote="aosp"
-    project="kernel/manifest"
-    revision="common-android13-5.15" />
 
   <project path="gs/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
   <project path="gs/google-modules/aoc" name="kernel/google-modules/aoc" />
