@@ -32,7 +32,7 @@
   <project path="gs/google-modules/nfc" name="kernel/google-modules/nfc" />
   <project path="gs/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" />
 
-  <project path="build/kernel" name="kernel/build" revision="master" >
+  <project path="build/kernel" name="kernel/build" revision="master-kernel-build-2022" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build.sh" dest="build/build.sh" />
