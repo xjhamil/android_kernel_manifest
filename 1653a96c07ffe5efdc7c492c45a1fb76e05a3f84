@@ -108,6 +108,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c85f0b0_7cfb2639",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2022-09-09T21:21:47Z",
+      "side": 1,
+      "message": "Validated with repo sync, other combinations get stuck when doing repo sync.",
+      "parentUuid": "0f46ae8e_0bd6eba8",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "31af49bd_96f736ea",
