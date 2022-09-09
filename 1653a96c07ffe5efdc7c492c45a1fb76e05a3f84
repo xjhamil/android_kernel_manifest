@@ -36,6 +36,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec689a30_76eb518c",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2022-09-09T17:17:38Z",
+      "side": 1,
+      "message": "go/mani-verify#using-validate-repo-branchpar",
+      "parentUuid": "3dfd7b84_c28a3666",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "31af49bd_96f736ea",
