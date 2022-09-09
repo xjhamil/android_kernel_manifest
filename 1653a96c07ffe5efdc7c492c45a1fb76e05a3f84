@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dfd7b84_c28a3666",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2022-09-09T16:56:53Z",
+      "side": 1,
+      "message": "I\u0027m not very familiar with remo manifest format, is there a tool to verify/lint the file?\n\nDone. PTAL",
+      "parentUuid": "787e532a_d93c2525",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "31af49bd_96f736ea",
@@ -35,6 +53,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "edc09f40_5ef24d7b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2022-09-09T16:56:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31af49bd_96f736ea",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0902549f_9f1091f6",
@@ -48,6 +84,24 @@
       "writtenOn": "2022-09-09T08:58:03Z",
       "side": 1,
       "message": "what revision is used here? perhaps that should be moved up to the other block to avoid confusion.",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea998b17_1b077ff7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2022-09-09T16:56:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0902549f_9f1091f6",
       "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
