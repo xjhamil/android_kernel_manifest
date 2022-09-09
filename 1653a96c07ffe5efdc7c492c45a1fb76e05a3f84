@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "787e532a_d93c2525",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-09-09T08:53:43Z",
+      "side": 1,
+      "message": "Perhaps it is worth having 2 remotes here:\n\naosp_kernel     -  with default revision android13-gs-raviole-5.15\naosp_buildtools -  with default revision master-kernel-build-2022\n\nThat way we avoid this massive duplication of information.\nAfter all, this should serve as reference project for the public. So, let\u0027s make it nice?",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
