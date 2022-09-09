@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2b36cdcc_e0b55dd0",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-09-09T18:47:06Z",
+      "side": 1,
+      "message": "I think we need the additional remotes only if that helps defining a default for the revision. otherwise I would go back to what we had before with a single remote. sorry for the noise if that did not work out the way I thought it would.",
+      "parentUuid": "9d1f50ab_2db0f4f8",
+      "revId": "1653a96c07ffe5efdc7c492c45a1fb76e05a3f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "31af49bd_96f736ea",
         "filename": "default.xml",
         "patchSetId": 2
