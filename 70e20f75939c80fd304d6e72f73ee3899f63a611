@@ -33,6 +33,24 @@
       "message": "Hi, John, Yifan\n\nJust a kind reminder to avoid being expired, in case there is no problem to have it merged.\n\nThanks,\nYongqin Liu",
       "revId": "70e20f75939c80fd304d6e72f73ee3899f63a611",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffc0b079_17af61fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-08T19:29:33Z",
+      "side": 1,
+      "message": "thanks!",
+      "parentUuid": "78830d18_5381d4b6",
+      "revId": "70e20f75939c80fd304d6e72f73ee3899f63a611",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
