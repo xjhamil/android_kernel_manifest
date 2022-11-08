@@ -16,6 +16,23 @@
       "message": "Yifan: This look ok to you?",
       "revId": "70e20f75939c80fd304d6e72f73ee3899f63a611",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78830d18_5381d4b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2022-11-08T13:55:23Z",
+      "side": 1,
+      "message": "Hi, John, Yifan\n\nJust a kind reminder to avoid being expired, in case there is no problem to have it merged.\n\nThanks,\nYongqin Liu",
+      "revId": "70e20f75939c80fd304d6e72f73ee3899f63a611",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
