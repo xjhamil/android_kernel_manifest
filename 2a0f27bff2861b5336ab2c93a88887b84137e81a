@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc8d6962_a080909a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-10T00:24:51Z",
+      "side": 1,
+      "message": "FTR: The SHA points to https://android-review.git.corp.google.com/c/kernel/build/+/2227286",
+      "revId": "2a0f27bff2861b5336ab2c93a88887b84137e81a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
