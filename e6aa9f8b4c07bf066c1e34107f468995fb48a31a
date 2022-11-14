@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bea825c_b70de046",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2022-11-14T14:41:06Z",
+      "side": 1,
+      "message": "Presubmit failure doesn\u0027t seem related and there are open bugs for the CTS test failing.",
+      "revId": "e6aa9f8b4c07bf066c1e34107f468995fb48a31a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
