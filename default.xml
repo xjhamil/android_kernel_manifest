@@ -14,19 +14,25 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="build.sh" dest="build/build.sh" />
     <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
     <linkfile src="_setup_env.sh" dest="build/_setup_env.sh" />
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
   </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="master" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="master" />
   <project path="external/dtc" name="platform/external/dtc" revision="master" />
   <project path="external/open-dice" name="platform/external/open-dice" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
+  <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/swig" name="platform/external/swig" revision="master" />
   <project path="external/zlib" name="platform/external/zlib" revision="master" />
-  <project path="u-boot" name="platform/external/u-boot" revision="master" />
+  <project path="u-boot" name="platform/external/u-boot" revision="master">
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+  </project>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     clone-depth="1" revision="0a0604336d4d1067aa1aaef8d3779b31fcee841d" />
@@ -39,8 +45,11 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     clone-depth="1" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
