@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5632a5e_b0709b72",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1291337
+      },
+      "writtenOn": "2022-11-19T00:53:19Z",
+      "side": 1,
+      "message": "FYI treehugger is not good at testing changes in topics including both manifest and non-manifest changes: go/treehugger-presubmit/manifests",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 8
+      },
+      "revId": "c011a551a625fe81126b6d38592637d9dc088f3a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
