@@ -39,7 +39,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     clone-depth="1" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
