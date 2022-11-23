@@ -16,6 +16,41 @@
       "message": "Waiting on b/260150932",
       "revId": "4dcdbe7a256c3d81666dfe840447c16c620d3a25",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12370a58_b08c139d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2022-11-23T04:40:09Z",
+      "side": 1,
+      "message": "Git branches have been created",
+      "revId": "4dcdbe7a256c3d81666dfe840447c16c620d3a25",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14f24631_304d2d99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2022-11-23T04:40:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5312c7bb_3c29d130",
+      "revId": "4dcdbe7a256c3d81666dfe840447c16c620d3a25",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
