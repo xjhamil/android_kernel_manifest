@@ -35,10 +35,10 @@
   </project>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
-    clone-depth="1" revision="0a0604336d4d1067aa1aaef8d3779b31fcee841d" />
+    clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
     name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
-    clone-depth="1" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" />
+    clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     clone-depth="1" />
