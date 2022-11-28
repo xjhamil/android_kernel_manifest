@@ -2,9 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-    fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
   <default revision="main-16k-gs-raviole-5.10"
-    remote="aosp" sync-j="4" />
+           remote="aosp"
+           sync-j="4" />
 
   <project path="aosp" name="kernel/common" groups="partner" />
   <project path="private/gs-google" name="kernel/gs" groups="partner">
