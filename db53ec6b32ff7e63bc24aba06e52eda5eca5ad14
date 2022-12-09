@@ -16,6 +16,23 @@
       "message": "pending aosp/2333769",
       "revId": "db53ec6b32ff7e63bc24aba06e52eda5eca5ad14",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29bbb419_763c6694",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-12-09T01:11:43Z",
+      "side": 1,
+      "message": "pending CL:2333769",
+      "revId": "db53ec6b32ff7e63bc24aba06e52eda5eca5ad14",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
