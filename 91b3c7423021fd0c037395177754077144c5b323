@@ -70,6 +70,24 @@
       "parentUuid": "611d83e6_d208e0c0",
       "revId": "91b3c7423021fd0c037395177754077144c5b323",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c4a13a2_5ff9a644",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-12-09T13:20:07Z",
+      "side": 1,
+      "message": "yes, I would like to rather not take such a big repo if we can find better places for the things we actually need out of it.",
+      "parentUuid": "81a7b27d_14ebbe19",
+      "revId": "91b3c7423021fd0c037395177754077144c5b323",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
