@@ -16,6 +16,24 @@
       "message": "This is quite a monster repository. Are you sure we need even 1% of it? Perhaps there is a possibility to get to a smaller common repo?",
       "revId": "91b3c7423021fd0c037395177754077144c5b323",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef2231bc_b816c488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-12-09T01:13:10Z",
+      "side": 1,
+      "message": "It has Roboleaf\u0027s trick to stub out the Java stuff and esoteric things like remote_coverage_tools.\n\nHow \"monstrous\" could it be? Are you concern that it is too big? Or it has too many things that may get abused?",
+      "parentUuid": "b2149cbb_e73aadbe",
+      "revId": "91b3c7423021fd0c037395177754077144c5b323",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
