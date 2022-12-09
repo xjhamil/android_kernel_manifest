@@ -34,6 +34,24 @@
       "parentUuid": "b2149cbb_e73aadbe",
       "revId": "91b3c7423021fd0c037395177754077144c5b323",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "611d83e6_d208e0c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-12-09T01:31:49Z",
+      "side": 1,
+      "message": "Or I can move remote_coverage_tools etc. to bazel_common_rules. Would that be better?",
+      "parentUuid": "ef2231bc_b816c488",
+      "revId": "91b3c7423021fd0c037395177754077144c5b323",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
