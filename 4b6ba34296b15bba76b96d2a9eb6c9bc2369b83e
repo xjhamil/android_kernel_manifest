@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccb02752_bb98023c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2023-01-16T01:34:43Z",
+      "side": 1,
+      "message": "We snap a new build for verifying signing issue.\nPlease help to +2",
+      "revId": "4b6ba34296b15bba76b96d2a9eb6c9bc2369b83e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
