@@ -42,6 +42,7 @@
 
   <!-- dependencies -->
   <project path="bionic" name="platform/bionic" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/dwarves" name="platform/external/dwarves" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
