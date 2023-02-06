@@ -3,9 +3,9 @@
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android.googlesource.com/" />
 
-  <default revision="master" remote="aosp" sync-j="4" />
+  <default revision="build-tools-2022" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="build-tools" />
+  <superproject name="kernel/superproject" remote="aosp" revision="build-tools-2022" />
 
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2022" />
 
@@ -57,7 +57,7 @@
 
   <project path="external/libbpf" name="platform/external/libbpf" revision="f60dce0e55842ac7acfedb4a9a14dee74c803245" />
 
-  <project path="external/libabigail" name="platform/external/libabigail" revision="build-tools-2022" />
+  <project path="external/libabigail" name="platform/external/libabigail" />
 
   <project path="external/libcxx" name="platform/external/libcxx" revision="84d309aa8d72c9333e9c503cdbd692f0497fe174" />
 
@@ -83,7 +83,7 @@
 
   <project path="external/starlark-go" name="platform/external/starlark-go" revision="312f9e324bdf0bde540b9a64d05ce0db85180478" />
 
-  <project path="external/stg" name="platform/external/stg" revision="build-tools-2022" />
+  <project path="external/stg" name="platform/external/stg" />
 
   <project path="external/swig" name="platform/external/swig" revision="0ffab894f917fcbbd031eaab870fbabaefe5daaa" />
 
