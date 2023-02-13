@@ -38,7 +38,7 @@
     clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
     name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
-    clone-depth="1" revision="master" />
+    clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     clone-depth="1" />
