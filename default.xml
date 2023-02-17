@@ -37,7 +37,7 @@
 
   <project path="external/boringssl" name="platform/external/boringssl" revision="b9e46fc97b5fcb64f753fdba8e87cc50a819bae0" />
 
-  <project path="external/dwarves" name="platform/external/dwarves" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
+  <project path="external/dwarves" name="platform/external/dwarves" />
 
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="b0470324bb553858a02569058f133aa536b379ed" />
 
