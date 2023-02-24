@@ -19,7 +19,7 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
-  <project path="common" name="kernel/common" revision="android-mainline" >
+  <project path="common" name="kernel/common" revision="android-mainline-rust" >
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   <project path="kernel/common-patches" name="kernel/common-patches" >
@@ -32,6 +32,7 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
