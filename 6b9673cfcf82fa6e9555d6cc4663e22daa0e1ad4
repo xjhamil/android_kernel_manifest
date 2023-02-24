@@ -16,6 +16,24 @@
       "message": "Is this the right branch?",
       "revId": "6b9673cfcf82fa6e9555d6cc4663e22daa0e1ad4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee799ff4_58be1107",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-02-24T15:54:16Z",
+      "side": 1,
+      "message": "It is, and if 14-6.1 is a target as well, then common-android14-6.1 is where it would need to be picked.",
+      "parentUuid": "8a518292_3c1eebc9",
+      "revId": "6b9673cfcf82fa6e9555d6cc4663e22daa0e1ad4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
