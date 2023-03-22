@@ -55,7 +55,6 @@
   <project path="external/icu" name="platform/external/icu" />
   <project path="external/jemalloc_new" name="platform/external/jemalloc_new" />
   <project path="external/libbpf" name="platform/external/libbpf" />
-  <project path="external/libabigail" name="platform/external/libabigail" />
   <project path="external/libcxx" name="platform/external/libcxx" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
   <project path="external/libxml2" name="platform/external/libxml2" />
