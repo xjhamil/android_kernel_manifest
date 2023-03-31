@@ -58,12 +58,14 @@
   <project path="external/libcxx" name="platform/external/libcxx" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" />
   <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/licenseclassifier" name="platform/external/licenseclassifier" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" />
   <project path="external/python/six" name="platform/external/python/six" />
   <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/spdx-tools" name="platform/external/spdx-tools" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <project path="external/starlark-go" name="platform/external/starlark-go" />
