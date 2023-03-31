@@ -16,6 +16,24 @@
       "message": "Please add licenseclassifier too.",
       "revId": "3df56d4120e6e81a222e2b0a215ccf9247ca1574",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49c69595_1ce26aa2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1954600
+      },
+      "writtenOn": "2023-03-31T16:16:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2552b03c_6a924aac",
+      "revId": "3df56d4120e6e81a222e2b0a215ccf9247ca1574",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
