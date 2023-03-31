@@ -64,6 +64,7 @@
   <project path="external/python/cpython3" name="platform/external/python/cpython3" />
   <project path="external/python/six" name="platform/external/python/six" />
   <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/spdx-tools" name="platform/external/spdx-tools" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <project path="external/starlark-go" name="platform/external/starlark-go" />
