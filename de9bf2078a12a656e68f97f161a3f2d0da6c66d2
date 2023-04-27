@@ -16,6 +16,24 @@
       "message": "--repo_prop has not been in the build command yet. Let\u0027s wait a bit.",
       "revId": "de9bf2078a12a656e68f97f161a3f2d0da6c66d2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54c95d55_beeb6ba5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-04-27T19:14:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c0efe48f_6fb05915",
+      "revId": "de9bf2078a12a656e68f97f161a3f2d0da6c66d2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
