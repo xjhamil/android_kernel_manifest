@@ -21,12 +21,9 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
-  <project path="common" name="kernel/common" revision="android14-6.1" >
-    <linkfile src="." dest=".source_date_epoch_dir" />
-  </project>
+  <project path="common" name="kernel/common" revision="android14-6.1" />
 
   <project path="private/google-modules/soc/gs" name="kernel/google-modules/raviole-device" >
-    <linkfile src="build.config.slider" dest="build.config" />
     <linkfile src="device.bazelrc" dest="device.bazelrc" />
   </project>
 
