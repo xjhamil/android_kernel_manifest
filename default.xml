@@ -5,30 +5,28 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="gs-android-gs-raviole-mainline" />
 
-  <project path="common" name="kernel/common" revision="android-mainline" >
-    <linkfile dest=".source_date_epoch_dir" src="." />
-  </project>
-  <project path="gs/google-modules/soc-modules" name="kernel/google-modules/raviole-device" >
-    <linkfile src="build.config.slider" dest="build.config" />
+  <project path="common" name="kernel/common" revision="android-mainline" />
+
+  <project path="private/google-modules/soc/gs" name="kernel/google-modules/raviole-device" >
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
   </project>
 
-  <project path="gs/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
-  <project path="gs/google-modules/aoc" name="kernel/google-modules/aoc" />
-  <project path="gs/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" />
-  <project path="gs/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" />
-  <project path="gs/google-modules/bms" name="kernel/google-modules/bms" />
-  <project path="gs/google-modules/display" name="kernel/google-modules/display" />
-  <project path="gs/google-modules/edgetpu" name="kernel/google-modules/edgetpu" />
-  <project path="gs/google-modules/gpu" name="kernel/google-modules/gpu" />
-  <project path="gs/google-modules/lwis" name="kernel/google-modules/lwis" />
-  <project path="gs/google-modules/power/reset" name="kernel/google-modules/power/reset" />
-  <project path="gs/google-modules/touch/common" name="kernel/google-modules/touch/common" />
-  <project path="gs/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" />
-  <project path="gs/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" />
-  <project path="gs/google-modules/uwb" name="kernel/google-modules/uwb" />
-  <project path="gs/google-modules/nfc" name="kernel/google-modules/nfc" />
-  <project path="gs/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" />
+  <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
+  <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" />
+  <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" />
+  <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" />
+  <project path="private/google-modules/bms" name="kernel/google-modules/bms" />
+  <project path="private/google-modules/display" name="kernel/google-modules/display" />
+  <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" />
+  <project path="private/google-modules/gpu" name="kernel/google-modules/gpu" />
+  <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" />
+  <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" />
+  <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" />
+  <project path="private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" />
+  <project path="private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" />
+  <project path="private/google-modules/uwb" name="kernel/google-modules/uwb" />
+  <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" />
+  <project path="private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" />
 
   <project path="build/kernel" name="kernel/build" revision="master" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
