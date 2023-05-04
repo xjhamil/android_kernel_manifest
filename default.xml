@@ -35,6 +35,7 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
+  <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
 
