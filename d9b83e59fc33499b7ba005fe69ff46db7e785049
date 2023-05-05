@@ -52,6 +52,24 @@
       "parentUuid": "39b17f72_b0a27cf0",
       "revId": "d9b83e59fc33499b7ba005fe69ff46db7e785049",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6a84cb2_6d8a9db2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-05-05T08:04:51Z",
+      "side": 1,
+      "message": "+1 to move the docs-only dependencies to a kleaf-docs manifest.",
+      "parentUuid": "72f12a3c_347718fa",
+      "revId": "d9b83e59fc33499b7ba005fe69ff46db7e785049",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
