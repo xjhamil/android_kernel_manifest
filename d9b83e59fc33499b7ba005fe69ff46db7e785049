@@ -34,6 +34,24 @@
       "parentUuid": "e2e25f82_348489ae",
       "revId": "d9b83e59fc33499b7ba005fe69ff46db7e785049",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72f12a3c_347718fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-05-05T00:28:43Z",
+      "side": 1,
+      "message": "BTW, all we are trying to solve here is the Internet access for kleaf_docs on build bots. For local users, we could direct them to look at .bzl directly or check out a different \"docs\" manifest that includes all these Java / JDK dependencies.\n\nSo here\u0027s what I suggest:\n- We create a separate repo manifest (maybe use the `group` attribute?) for docs that includes the JDK etc.\n- Only kleaf_docs use this repo manifest\n- We update instructions on how to build docs locally (either with Internet, or with the prebuilts checked out)",
+      "parentUuid": "39b17f72_b0a27cf0",
+      "revId": "d9b83e59fc33499b7ba005fe69ff46db7e785049",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
