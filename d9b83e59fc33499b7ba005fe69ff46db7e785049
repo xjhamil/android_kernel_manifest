@@ -70,6 +70,24 @@
       "parentUuid": "72f12a3c_347718fa",
       "revId": "d9b83e59fc33499b7ba005fe69ff46db7e785049",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a97d0568_6555a780",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-05-11T15:18:30Z",
+      "side": 1,
+      "message": "I\u0027m abandoning this change, and instead will work on the splitting of the manifest. \nDone",
+      "parentUuid": "d6a84cb2_6d8a9db2",
+      "revId": "d9b83e59fc33499b7ba005fe69ff46db7e785049",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
