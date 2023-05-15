@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25e63fb1_32dde1b5",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-05-15T12:23:20Z",
+      "side": 1,
+      "message": "perhaps we can even drop some of those big repositories if they are not needed to build the docs? The \u0027rust\u0027 one for sure we should be able to drop.",
+      "revId": "9a415e3eef7c10d98819897c3dd5f72cb53ee054",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
