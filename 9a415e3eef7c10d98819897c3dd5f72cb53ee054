@@ -16,6 +16,24 @@
       "message": "perhaps we can even drop some of those big repositories if they are not needed to build the docs? The \u0027rust\u0027 one for sure we should be able to drop.",
       "revId": "9a415e3eef7c10d98819897c3dd5f72cb53ee054",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa9d252e_879433cb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-05-15T12:27:14Z",
+      "side": 1,
+      "message": "I totally agree, In fact I\u0027ve tried it initially but I think I removed them too many 😂 and ended up breaking too many dependencies. Then I decided to submit this first, let my try pruning one by one instead.",
+      "parentUuid": "25e63fb1_32dde1b5",
+      "revId": "9a415e3eef7c10d98819897c3dd5f72cb53ee054",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
