@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2527615f_42b906be",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-05-17T11:06:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "414ef04d_3f4c3d11",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 67
+      },
+      "revId": "b6707e86dfafe60760e20f4d13ac4d942345e599",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "317f69db_d340596a",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-05-16T20:42:49Z",
       "side": 1,
       "message": "nit: I think this can go away but I am not sure",
+      "range": {
+        "startLine": 25,
+        "startChar": 96,
+        "endLine": 26,
+        "endChar": 96
+      },
+      "revId": "b6707e86dfafe60760e20f4d13ac4d942345e599",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "981c2991_f679f6b3",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-05-17T11:06:23Z",
+      "side": 1,
+      "message": "Done\n\nI remember this gave me one error before, but now it works without it. 😊 maybe I confused it with `prebuilts/clang/`",
+      "parentUuid": "317f69db_d340596a",
       "range": {
         "startLine": 25,
         "startChar": 96,
