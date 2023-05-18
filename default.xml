@@ -5,7 +5,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.10-2023-05" />
 
-  <project path="build/kernel" name="kernel/build" revision="92e8d0541d372646caca7d26fc4a1d7804db7420">
+  <project path="build/kernel" name="kernel/build" revision="b9ba4b67e90b85d01eb2f9cebf62830a73574cd9">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build.sh" dest="build/build.sh" />
