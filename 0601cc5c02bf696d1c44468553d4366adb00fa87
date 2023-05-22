@@ -46,6 +46,30 @@
       },
       "revId": "0601cc5c02bf696d1c44468553d4366adb00fa87",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59d5b147_59211f60",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-05-22T21:19:30Z",
+      "side": 1,
+      "message": "There is no need since the KMI is stable so there shouldn\u0027t be a need make any changes to virtual-device as part of an LTS update (so it is a test of source-level compatibility which we don\u0027t guarantee, but we\u0027d like to know if it breaks)",
+      "parentUuid": "c608584e_b69a84f5",
+      "range": {
+        "startLine": 20,
+        "startChar": 102,
+        "endLine": 20,
+        "endChar": 115
+      },
+      "revId": "0601cc5c02bf696d1c44468553d4366adb00fa87",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
