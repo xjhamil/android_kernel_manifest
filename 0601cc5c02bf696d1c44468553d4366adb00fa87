@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10c26fb0_5dad19ff",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1123518
+      },
+      "writtenOn": "2023-05-22T20:10:40Z",
+      "side": 1,
+      "message": "We don\u0027t maintain separate lts branch for common-modules/virtual-device?",
+      "range": {
+        "startLine": 20,
+        "startChar": 102,
+        "endLine": 20,
+        "endChar": 115
+      },
+      "revId": "0601cc5c02bf696d1c44468553d4366adb00fa87",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
