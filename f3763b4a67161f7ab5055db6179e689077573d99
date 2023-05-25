@@ -16,6 +16,24 @@
       "message": "Hold until virtual-device is sorted",
       "revId": "f3763b4a67161f7ab5055db6179e689077573d99",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8325c2de_8c6b9cce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1959117
+      },
+      "writtenOn": "2023-05-25T17:15:44Z",
+      "side": 1,
+      "message": "android15-6.1 branch created for kernel/common-modules/virtual-device",
+      "parentUuid": "347a07aa_69403495",
+      "revId": "f3763b4a67161f7ab5055db6179e689077573d99",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
