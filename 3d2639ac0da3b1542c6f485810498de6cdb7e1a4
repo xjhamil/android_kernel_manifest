@@ -16,6 +16,24 @@
       "message": "checkpatch run broken",
       "revId": "3d2639ac0da3b1542c6f485810498de6cdb7e1a4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "024d51a6_7d01c95f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-06-07T17:38:20Z",
+      "side": 1,
+      "message": "not any more",
+      "parentUuid": "d5abb3b3_b34b510a",
+      "revId": "3d2639ac0da3b1542c6f485810498de6cdb7e1a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
