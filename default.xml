@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="android-gs-felix-5.10-android13-qpr3-c"
+  <default revision="android-gs-felix-5.10-android13-d3"
     remote="aosp" sync-j="4" />
 
   <project path="aosp" name="kernel/common" groups="partner"/>
@@ -20,18 +20,6 @@
     <linkfile dest="update_symbol_list_slider-aosp.sh" src="update_symbol_list_slider-aosp.sh"/>
     <linkfile dest="update_symbol_list_slider-staging.sh" src="update_symbol_list_slider-staging.sh"/>
     <linkfile dest=".source_date_epoch_dir" src="."/>
-  </project>
-  <project path="private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="partner,bluejay">
-    <linkfile dest="build_bluejay.sh" src="build_bluejay.sh"/>
-    <linkfile dest="update_symbol_list_bluejay-aosp.sh" src="update_symbol_list_bluejay-aosp.sh"/>
-    <linkfile dest="update_symbol_list_bluejay-staging.sh" src="update_symbol_list_bluejay-staging.sh"/>
-    <linkfile dest="private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts"/>
-  </project>
-  <project path="private/devices/google/lynx" name="kernel/devices/google/lynx" groups="partner,lynx">
-    <linkfile dest="build_lynx.sh" src="build_lynx.sh"/>
-    <linkfile dest="update_symbol_list_lynx-aosp.sh" src="update_symbol_list_lynx-aosp.sh"/>
-    <linkfile dest="update_symbol_list_lynx-staging.sh" src="update_symbol_list_lynx-staging.sh"/>
-    <linkfile dest="private/gs-google/arch/arm64/boot/dts/google/devices/lynx" src="dts"/>
   </project>
   <project path="private/devices/google/felix" name="kernel/devices/google/felix" groups="partner,felix" >
     <linkfile dest="build_felix.sh" src="build_felix.sh"/>
