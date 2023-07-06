@@ -5,7 +5,7 @@
   <default revision="android-msm-coral-4.14-android10-c2f2"
     remote="aosp" sync-j="4" />
 
-  <project path="build" name="kernel/build" revision="master" />
+  <project path="build" name="kernel/build" revision="main" />
   <project path="private/msm-google" name="kernel/msm" >
     <linkfile src="build.config.no-cfi" dest="build.config" />
   </project>
