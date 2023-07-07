@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "687b7cac_c9823c8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-07-07T07:59:53Z",
+      "side": 1,
+      "message": "This has been marked as a merge conflict due to aosp/2650702, so the transition has happened.",
+      "parentUuid": "e7968258_046f376c",
+      "revId": "66d0d646e6696a652e0a10b3bdaa20c03fccb07c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "7b00e438_0a5b4d89",
