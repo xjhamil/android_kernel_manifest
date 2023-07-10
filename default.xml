@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="android-exynos-r11-4.19-android11-wear-jr2"
+  <default revision="android-exynos-r11-4.19-android13-wear-kr3-qpr3-dr"
     remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="android-exynos-r11-4.19-android11-wear-jr2" />
