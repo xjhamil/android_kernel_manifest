@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fc46a38_8dc86e96",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-07-20T21:56:16Z",
+      "side": 1,
+      "message": "Can you explain a bit more? Does that mean all projects that needs to run `bazel` (Kleaf in particular) will need rules_java too?! Or does this only affect Android platform builds (this branch)?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 46
+      },
+      "revId": "19d622fb477c92734ed84c6b56800524611d498c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
