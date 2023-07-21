@@ -22,6 +22,30 @@
       },
       "revId": "19d622fb477c92734ed84c6b56800524611d498c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a5299c4_41d6a710",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1888650
+      },
+      "writtenOn": "2023-07-21T14:38:06Z",
+      "side": 1,
+      "message": "Hi Yifan, I believe all projects that need to run `bazel` will need rules_java too, the java rules used to be embedded in the bazel binary, they are being split out into their own repository. Right now the binary still embeds the rule, pretty much just for Roboleaf while we migrate away from this. Eventually the rules will need to be fetched from somewhere. By default Bazel will fetch the rules from the internet transparently, but in aosp we must use the vendored directory. If you do not use java at all in your workspace this may not affect you, but I would have to double check on this",
+      "parentUuid": "3fc46a38_8dc86e96",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 46
+      },
+      "revId": "19d622fb477c92734ed84c6b56800524611d498c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
