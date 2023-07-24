@@ -46,6 +46,30 @@
       },
       "revId": "19d622fb477c92734ed84c6b56800524611d498c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c7439df_1296ca0e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-07-24T09:31:02Z",
+      "side": 1,
+      "message": "We do not use any java rules and we do not intend to do so. I would prefer not to add this additional dependency.",
+      "parentUuid": "9a5299c4_41d6a710",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 46
+      },
+      "revId": "19d622fb477c92734ed84c6b56800524611d498c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
