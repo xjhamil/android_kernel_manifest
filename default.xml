@@ -5,7 +5,11 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2023-07" />
 
+<<<<<<< HEAD   (6e11f6 Update manifest file for the GKI 2023-07 first candidate)
   <project path="build/kernel" name="kernel/build" revision="5f235c6ea4ab3f5f82ee3f022334eaaff9c3bafe">
+=======
+  <project path="build/kernel" name="kernel/build" revision="f7a1a1dea0baff19d91c9187fd5be586bc968c73">
+>>>>>>> CHANGE (3bd1f9 Rebase the kernel/build to include flag --kleaf_localversion)
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
