@@ -94,6 +94,30 @@
       },
       "revId": "19d622fb477c92734ed84c6b56800524611d498c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fed36e06_c7ed6598",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1888650
+      },
+      "writtenOn": "2023-07-24T13:49:02Z",
+      "side": 1,
+      "message": "Np! \n\nIt does look like you have an indirect dependency on the java rules from your use of stardoc ([link](https://cs.android.com/android/kernel/superproject/+/common-android-mainline:build/kernel/kleaf/workspace.bzl;l\u003d151-161;drc\u003d823f8640fd37d514d8a9e71e192c7dc75892a845)), so you might eventually still need this in the kernel manifest, and something along the lines of what I did in aosp/2665898 (and then we could delete the stubbed java rules at build/bazel_common_rules/rules/java/rules_java/), but we can cross that bridge later",
+      "parentUuid": "8c7439df_1296ca0e",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 46
+      },
+      "revId": "19d622fb477c92734ed84c6b56800524611d498c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
