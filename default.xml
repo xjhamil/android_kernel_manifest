@@ -22,4 +22,5 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
+  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" />
 </manifest>
