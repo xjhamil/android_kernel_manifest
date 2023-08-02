@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<<<<<<< HEAD   (eb598f DO NOT MERGE ANYWHERE - Update android14-gs-pixel-6.1 to use)
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="android14-gs-pixel-6.1" remote="aosp" sync-j="4" />
+=======
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
+>>>>>>> CHANGE (0b9bd3 Switch manifest to stabilized kernel build tools)
 
   <superproject name="kernel/superproject" remote="aosp" revision="android-gs-raviole-6.1" />
 
@@ -22,6 +27,7 @@
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
   <project path="common" name="kernel/common" revision="android14-6.1" />
+<<<<<<< HEAD   (eb598f DO NOT MERGE ANYWHERE - Update android14-gs-pixel-6.1 to use)
 
   <project path="private/google-modules/soc/gs" name="kernel/google-modules/raviole-device" >
     <linkfile src="device.bazelrc" dest="device.bazelrc" />
@@ -52,10 +58,27 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" revision="main" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="main" />
+=======
+  <project path="kernel/tests" name="kernel/tests" />
+  <project path="kernel/configs" name="kernel/configs" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android14-6.1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+>>>>>>> CHANGE (0b9bd3 Switch manifest to stabilized kernel build tools)
 
+<<<<<<< HEAD   (eb598f DO NOT MERGE ANYWHERE - Update android14-gs-pixel-6.1 to use)
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" revision="main" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main" clone-depth="1" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" revision="main" clone-depth="1" />
+=======
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
+>>>>>>> CHANGE (0b9bd3 Switch manifest to stabilized kernel build tools)
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" revision="main" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main" />
