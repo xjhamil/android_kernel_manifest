@@ -44,7 +44,7 @@
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" />
   <project path="private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" />
 
-  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" clone-depth="1" revision="android13-gs-raviole-5.15" />
+  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" clone-depth="1" revision="android-gs-raviole-mainline" />
   <project path="kernel/configs" name="kernel/configs" revision="main" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main" clone-depth="1" />
