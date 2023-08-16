@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "358adc6c_0cea036d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1945845
+      },
+      "writtenOn": "2023-08-16T19:27:13Z",
+      "side": 1,
+      "message": "No objection, but its not clear why you went with -mainline branch instead of a 6.1 based branch?",
+      "revId": "7c2d4fc1e874317c94c8b2fdc82a56c09645c34e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40fdb144_0f4e3c66",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1945845
+      },
+      "writtenOn": "2023-08-16T19:27:13Z",
+      "side": 1,
+      "message": "Why mainline instead of android14-gs-raviole-6.1",
+      "revId": "7c2d4fc1e874317c94c8b2fdc82a56c09645c34e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
