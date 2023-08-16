@@ -68,6 +68,24 @@
       "parentUuid": "40fdb144_0f4e3c66",
       "revId": "7c2d4fc1e874317c94c8b2fdc82a56c09645c34e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e83d111_77b7003f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1945845
+      },
+      "writtenOn": "2023-08-16T19:29:02Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "c29a4340_8131d6c4",
+      "revId": "7c2d4fc1e874317c94c8b2fdc82a56c09645c34e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
