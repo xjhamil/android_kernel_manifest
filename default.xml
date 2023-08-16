@@ -7,7 +7,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="android-gs-raviole-6.1" />
 
-  <project path="build/kernel" name="kernel/build" revision="main" >
+  <project path="build/kernel" name="kernel/build" revision="main-kernel-build-2023" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build.sh" dest="build/build.sh" />
@@ -45,20 +45,20 @@
   <project path="private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" />
 
   <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" clone-depth="1" revision="android-gs-raviole-mainline" />
-  <project path="kernel/configs" name="kernel/configs" revision="main" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main" clone-depth="1" />
-  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" revision="main" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main" clone-depth="1" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="main" />
+  <project path="kernel/configs" name="kernel/configs" revision="main-kernel-build-2023" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="main-kernel-build-2023" />
 
-  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" revision="main" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main" clone-depth="1" />
-  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" revision="main" clone-depth="1" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel-build-2023" clone-depth="1" />
+  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" revision="main-kernel-build-2023" clone-depth="1" />
 
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" revision="main" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main" />
-  <project path="external/stardoc" name="platform/external/stardoc" revision="main" />
-  <project path="external/python/absl-py" name="platform/external/python/absl-py" revision="main" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" revision="main-kernel-build-2023" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main-kernel-build-2023" />
+  <project path="external/stardoc" name="platform/external/stardoc" revision="main-kernel-build-2023" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" revision="main-kernel-build-2023" />
 </manifest>
