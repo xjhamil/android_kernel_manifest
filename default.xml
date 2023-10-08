@@ -19,12 +19,28 @@
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
   </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main" />
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="main" />
   <project path="external/dtc" name="platform/external/dtc" revision="main" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/googletest" name="platform/external/googletest" />
   <project path="external/open-dice" name="platform/external/open-dice" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="external/stardoc" name="platform/external/stardoc" />
+  <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
+  <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" />
+  <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" />
+  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" />
+  <project path="external/rust/crates/hex" name="platform/external/rust/crates/hex" />
+  <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" />
+  <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" />
+  <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" />
+  <project path="external/rust/crates/tinyjson" name="platform/external/rust/crates/tinyjson" />
+  <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" />
+  <project path="external/rust/crates/zerocopy" name="platform/external/rust/crates/zerocopy" />
+  <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" />
   <project path="external/swig" name="platform/external/swig" revision="main" />
   <project path="external/zlib" name="platform/external/zlib" revision="main" />
   <project path="u-boot" name="platform/external/u-boot" revision="main">
@@ -44,10 +60,12 @@
     name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
