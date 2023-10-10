@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed3bca50_038cde89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2023-10-10T04:30:09Z",
+      "side": 1,
+      "message": "Hi @rammuthiah@google.com, these are additional dependencies needed for building GBL uefi from u-boot-mainline. One concern is that `prebuilts/rust` is 13GB, which doubles the current disk space. Will this be an issue for any existing use scenarios?",
+      "revId": "94d438e7b5a71c1a84f20503d0367824dca814cc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
