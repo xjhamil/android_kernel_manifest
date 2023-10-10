@@ -22,6 +22,30 @@
       },
       "revId": "b3607b149ca3238c761b82da2c7ff35c7da7b774",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b18f8048_54808ba1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2023-10-10T15:50:23Z",
+      "side": 1,
+      "message": "Good point. Reverted to android14-6.1",
+      "parentUuid": "a6ab74d8_24b77820",
+      "range": {
+        "startLine": 17,
+        "startChar": 115,
+        "endLine": 17,
+        "endChar": 133
+      },
+      "revId": "b3607b149ca3238c761b82da2c7ff35c7da7b774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
