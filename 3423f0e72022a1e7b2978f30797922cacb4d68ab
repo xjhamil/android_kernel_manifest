@@ -34,6 +34,24 @@
       "parentUuid": "1eef869d_26330334",
       "revId": "3423f0e72022a1e7b2978f30797922cacb4d68ab",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cf3caad_bf2711d9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-10-11T16:21:31Z",
+      "side": 1,
+      "message": "For now we still need stardoc. We might be able to drop it later once we contain stardoc dependency to a small directory.\n\nabsl-py is needed because Python scripts use it. https://cs.android.com/android/kernel/superproject/+/common-android-mainline:build/kernel/kleaf/impl/BUILD.bazel;l\u003d290;drc\u003dbbc1abd29ddc1731b8b14e67ee7cef24e05976eb",
+      "parentUuid": "3f41679e_08203d7a",
+      "revId": "3423f0e72022a1e7b2978f30797922cacb4d68ab",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
