@@ -3,26 +3,101 @@
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="android-exynos-r11-4.19-android13-wear-kr3-qpr3-dr"
+  <default revision="android-msm-eos-5.15-tm-wear-kr3-dr-eos"
     remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="android-exynos-r11-4.19-android11-wear-jr2" />
+  <superproject name="kernel/superproject" remote="aosp" revision="android-msm-eos-5.15-tm-wear-kr3-dr-eos" />
 
-  <project path="private/exynos-google-cw" name="kernel/exynos"/>
-  <project path="private/exynos-google-cw-extra/config" name="kernel/exynos-modules/config">
-    <linkfile dest="build.config" src="build.config"/>
-    <linkfile dest="private/exynos-google-cw/arch/arm64/configs/r11_defconfig" src="r11_defconfig"/>
-    <linkfile dest="private/exynos-google-cw/arch/arm64/boot/dts/dtboimg.cfg" src="dtboimg.cfg"/>
+  <project path="private/msm-google" name="kernel/msm" groups="partner" >
+    <linkfile dest="build.config" src="build.config.aarch64"/>
+    <linkfile dest="private/google-modules/soc/msm/vendor_kernel_boot_modules.sw5100" src="modules.list.msm.monaco"/>
+    <linkfile dest="private/google-modules/soc/msm/vendor_dlkm.blocklist.sw5100" src="modules.vendor_blocklist.msm.monaco"/>
+    <linkfile dest="private/google-modules/soc/msm/monaco_gki.fragment" src="arch/arm64/configs/vendor/monaco_GKI.config"/>
   </project>
-  <project path="private/exynos-google-cw-extra/drivers" name="kernel/exynos-modules/drivers"/>
-  <project path="private/exynos-google-cw-extra/devicetree" name="kernel/exynos-modules/devicetree">
-    <linkfile dest="private/exynos-google-cw/arch/arm64/boot/dts/exynos/exynos9110" src="."/>
-    <linkfile dest="private/exynos-google-cw/arch/arm64/boot/dts/exynos/r11.dts" src="r11.dts"/>
+  <project path="private/devices/google/eos" name="kernel/devices/google/eos" groups="partner" >
+    <linkfile dest="build_eos.sh" src="build_eos.sh"/>
   </project>
-  <project path="build" name="kernel/build" remote="aosp" groups="partner"/>
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="partner"/>
-  <project path="prebuilts-master/misc" name="platform/prebuilts/misc"  clone-depth="1" groups="partner"/>
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" clone-depth="1" remote="aosp" groups="partner"/>
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" remote="aosp" groups="partner"/>
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" groups="partner"/>
+  <project path="private/msm-google/devicetree" name="kernel/msm-extra/devicetree" groups="partner" >
+    <linkfile dest="private/msm-google/arch/arm64/boot/dts/vendor" src="."/>
+    <linkfile dest="private/google-modules/soc/msm/dts/vendor/qcom" src="qcom"/>
+    <linkfile dest="private/devices/google/eos/dts/vendor/qcom" src="qcom"/>
+  </project>
+  <project path="private/msm-google/display-devicetree" name="kernel/msm-extra/display-devicetree" groups="partner" >
+    <linkfile dest="private/google-modules/soc/msm/dts/display-devicetree" src="."/>
+  </project>
+  <project path="private/msm-google/audio-devicetree" name="kernel/msm-extra/audio-devicetree" groups="partner" >
+    <linkfile dest="private/google-modules/soc/msm/dts/audio-devicetree" src="."/>
+  </project>
+  <project path="private/msm-google/bt-devicetree" name="kernel/msm-extra/bt-devicetree" groups="partner" >
+    <linkfile dest="private/google-modules/soc/msm/dts/bt-devicetree" src="."/>
+    <linkfile dest="private/devices/google/eos/dts/bt-devicetree" src="."/>
+  </project>
+  <project path="private/msm-google/data-devicetree" name="kernel/msm-extra/data-devicetree" groups="partner" />
+  <project path="private/msm-google/mmrm-devicetree" name="kernel/msm-extra/mmrm-devicetree" groups="partner" />
+  <project path="private/msm-google/nfc-devicetree" name="kernel/msm-extra/nfc-devicetree" groups="partner" />
+  <project path="private/msm-google/video-devicetree" name="kernel/msm-extra/video-devicetree" groups="partner" >
+    <linkfile dest="private/google-modules/soc/msm/dts/video-devicetree" src="."/>
+  </project>
+  <project path="private/msm-google/wlan-devicetree" name="kernel/msm-extra/wlan-devicetree" groups="partner" >
+    <linkfile dest="private/google-modules/soc/msm/dts/wlan-devicetree" src="."/>
+  </project>
+  <project path="private/msm-google/graphics-devicetree" name="kernel/msm-extra/graphics-devicetree" groups="partner" >
+    <linkfile dest="private/google-modules/soc/msm/dts/graphics-devicetree" src="."/>
+  </project>
+  <project path="private/msm-google-modules/audio" name="kernel/msm-extra" groups="partner" />
+  <project path="private/msm-google-modules/bt" name="kernel/msm-modules/bt" groups="partner" />
+  <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" />
+  <project path="private/msm-google-modules/dataipa" name="kernel/msm-extra/dataipa" groups="partner" />
+  <project path="private/msm-google-modules/datarmnet" name="kernel/msm-modules/datarmnet" groups="partner" />
+  <project path="private/msm-google-modules/datarmnet-ext" name="kernel/msm-modules/datarmnet-ext" groups="partner" />
+  <project path="private/msm-google-modules/display" name="kernel/msm-extra/display-drivers" groups="partner" />
+  <project path="private/msm-google-modules/graphics" name="kernel/msm-modules/graphics" groups="partner" />
+  <project path="private/msm-google-modules/mm" name="kernel/msm-modules/mm" groups="partner" />
+  <project path="private/msm-google-modules/mmrm" name="kernel/msm-modules/mmrm" groups="partner" />
+  <project path="private/msm-google-modules/securemsm" name="kernel/msm-modules/securemsm" groups="partner" />
+  <project path="private/msm-google-modules/touch" name="kernel/msm-modules/touch" groups="partner" />
+  <project path="private/msm-google-modules/video" name="kernel/msm-extra/video-driver" groups="partner" />
+  <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" />
+  <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" />
+  <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" />
+  <project path="private/msm-google-modules/wlan/platform" name="kernel/msm-modules/wlan-platform" groups="partner" />
+  <project path="private/google-modules/soc/msm" name="kernel/google-modules/soc/msm" groups="partner" >
+    <linkfile dest="private/devices/google/eos/dts/google-dts-base" src="dts/google"/>
+    <linkfile dest="update_symbol_list.sh" src="scripts/update_symbol_list.sh"/>
+    <linkfile dest="handle_aosp_merge.sh" src="scripts/handle_aosp_merge.sh"/>
+  </project>
+  <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
+  <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
+  <project path="private/google-modules/modem" name="kernel/msm-modules/modem" groups="partner" />
+  <project path="private/google-modules/nanohub" name="kernel/google-modules/nanohub" groups="partner" />
+  <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
+  <project path="private/google-modules/rotary-encoders" name="kernel/google-modules/rotary-encoders" groups="partner" />
+  <project path="private/google-modules/sound/mcu_mic_codec" name="kernel/google-modules/sound/mcu_mic_codec" groups="partner" />
+  <project path="private/google-modules/touch/novatek" name="kernel/google-modules/touch/novatek_touch" groups="partner" />
+  <project path="build/kernel" name="kernel/build" groups="partner" >
+    <linkfile dest="build/build.sh" src="build.sh"/>
+    <linkfile dest="build/build_abi.sh" src="build_abi.sh"/>
+    <linkfile dest="build/build_test.sh" src="build_test.sh"/>
+    <linkfile dest="build/build_utils.sh" src="build_utils.sh"/>
+    <linkfile dest="build/config.sh" src="config.sh"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/_setup_env.sh" src="_setup_env.sh"/>
+    <linkfile dest="build/multi-switcher.sh" src="multi-switcher.sh"/>
+    <linkfile dest="build/abi" src="abi"/>
+    <linkfile dest="build/static_analysis" src="static_analysis"/>
+  </project>
+  <project path="kernel/configs" name="kernel/configs" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="partner" />
+  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" groups="partner" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="partner" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="partner" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="partner" />
+  <project path="external/stardoc" name="platform/external/stardoc" groups="partner" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="partner" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="partner" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="partner" />
+  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" groups="partner" />
 </manifest>
