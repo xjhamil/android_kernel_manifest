@@ -8,11 +8,14 @@
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+<<<<<<< HEAD   (497480 Add Bazel rules-cc.)
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
     <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
+=======
+>>>>>>> CHANGE (dac224 Delete unused symlinks.)
   </project>
   <project path="common" name="kernel/common" revision="android15-6.1" />
   <project path="kernel/tests" name="kernel/tests" />
