@@ -50,6 +50,23 @@
       "message": "@ipalant@google.com Could you please help?",
       "revId": "b98a66508af453a45603cf6f238e4ed2b9a8ea9e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b12be6fe_00a83a8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1133963
+      },
+      "writtenOn": "2023-10-18T23:07:14Z",
+      "side": 1,
+      "message": "Todd, would you be able to +2 and approve this change?",
+      "revId": "b98a66508af453a45603cf6f238e4ed2b9a8ea9e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
