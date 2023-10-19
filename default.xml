@@ -25,7 +25,7 @@
   </project>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="d8e1867f2148aff332ebeeea93946277f3ebf83d" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="46e845036c647443672c37080419bc8adbf5dfe9" upstream="android13-5.10" dest-branch="android13-5.10" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
