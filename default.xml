@@ -24,7 +24,11 @@
   </project>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
+<<<<<<< HEAD   (f5d786 Snap projects to build 10961390)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="be609e9bb94145c8c3a9fe0236d813130a2a3262" upstream="android13-5.15" dest-branch="android13-5.15" />
+=======
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="deede4fddac274575cb0e26498fc0f4a718229fb" upstream="android13-5.15" dest-branch="android13-5.15" />
+>>>>>>> CHANGE (76db1e Update manifest file for GKI 2023-09)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
