@@ -24,7 +24,11 @@
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="42a77670ce44d6e19a6fbb8b93fa0b06f009a3a4" />
   <project path="kernel/configs" name="kernel/configs" revision="b3cc2bc03dab303c54a9ce1f709f8ee315eb311d" />
+<<<<<<< HEAD   (106ee3 Initial android13-5.15-2022-11)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="e870c88447a837e1c6433eb55c677edf823ff6d6" upstream="android13-5.15" dest-branch="android13-5.15" />
+=======
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="deede4fddac274575cb0e26498fc0f4a718229fb" upstream="android13-5.15" dest-branch="android13-5.15" />
+>>>>>>> CHANGE (695a9c Update manifest file for GKI 2022-12)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="4bb6424cb1615af408ae80871131f4da8c4ddadf" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="007101a451907c5369db5002ddf7b14dcefb7864" />
   <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="45d30d07ad284018481ebb419b5d01b5de72ed02" />
