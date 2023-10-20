@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "7bd95d16_5bbd06ec",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1123518
+      },
+      "writtenOn": "2023-10-20T17:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "503a0ea6_b6928c8b",
+      "revId": "00a6f167fd417384798deeafb0237a594325986e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "e659e8d5_64d95510",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2023-10-20T09:03:29Z",
       "side": 1,
       "message": "Do we also need this for android15-6.1 ?",
+      "revId": "00a6f167fd417384798deeafb0237a594325986e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83120ff4_243817bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1123518
+      },
+      "writtenOn": "2023-10-20T17:07:22Z",
+      "side": 1,
+      "message": "Yes, we will start with android-mainline and add it to more dev branches later.",
+      "parentUuid": "e659e8d5_64d95510",
       "revId": "00a6f167fd417384798deeafb0237a594325986e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
