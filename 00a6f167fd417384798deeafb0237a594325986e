@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "503a0ea6_b6928c8b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-10-20T09:03:29Z",
+      "side": 1,
+      "message": "Please add rationale why this is needed. Also, please say something about the additional footprint on disk that comes with it.",
+      "revId": "00a6f167fd417384798deeafb0237a594325986e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e659e8d5_64d95510",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-10-20T09:03:29Z",
+      "side": 1,
+      "message": "Do we also need this for android15-6.1 ?",
+      "revId": "00a6f167fd417384798deeafb0237a594325986e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
