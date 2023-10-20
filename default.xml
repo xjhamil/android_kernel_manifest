@@ -23,6 +23,7 @@
   <project path="common" name="kernel/common" revision="android13-5.10-2023-08" upstream="android13-5.10-2023-08" dest-branch="android13-5.10-2023-08">
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
+<<<<<<< HEAD   (86f9f9 Switch manifest to stabilized kernel build tools)
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="d8e1867f2148aff332ebeeea93946277f3ebf83d" upstream="android13-5.10" dest-branch="android13-5.10" />
@@ -31,6 +32,16 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+=======
+  <project path="kernel/tests" name="kernel/tests" revision="42a77670ce44d6e19a6fbb8b93fa0b06f009a3a4" />
+  <project path="kernel/configs" name="kernel/configs" revision="b3cc2bc03dab303c54a9ce1f709f8ee315eb311d" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="423eb1c11b3ec94ab40900529c0bf7aca94cf4fa" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="4bb6424cb1615af408ae80871131f4da8c4ddadf" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="007101a451907c5369db5002ddf7b14dcefb7864" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="f6813860e16b2fa1461a15e7b8a3127dfdee021a" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="083e34d8c2c4239be4967172427268c267585951" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="2208a03d874255af1e4eaf6cf7c156fe1dc98943" />
+>>>>>>> CHANGE (053ff3 Update manifest file for GKI 2023-07)
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
