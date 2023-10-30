@@ -30,6 +30,12 @@
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" groups="ddk" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" groups="ddk" />
 
+<<<<<<< PATCH SET (08c7ce Revert "adding rules_license project for accessing sbom gene)
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
+  <project path="external/stardoc" name="platform/external/stardoc" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" />
+=======
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
@@ -37,4 +43,5 @@
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
+>>>>>>> BASE      (09716a Add asuite prebuilt repo into android-mainline manifest.)
 </manifest>
