@@ -38,6 +38,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f059e663_6e72f17c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-11-06T23:45:58Z",
+      "side": 1,
+      "message": "also -- mention this change in gki newsletter as well",
+      "revId": "b1f52492e7d7f38939032f3d3e79ae2c0e634781",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6f30ed12_4f61948f",
         "filename": "default.xml",
         "patchSetId": 1
