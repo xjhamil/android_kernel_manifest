@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "827c3371_7a1dbc80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-11-06T23:43:40Z",
+      "side": 1,
+      "message": "Can you mention in the commit message that rules_cc and rules_rust depends on rules_python?",
+      "revId": "b1f52492e7d7f38939032f3d3e79ae2c0e634781",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
