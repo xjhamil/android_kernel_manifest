@@ -35,4 +35,9 @@
   <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
+<<<<<<< HEAD   (f9c2e3 Add rules_cc to group ddk.)
+=======
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
+>>>>>>> CHANGE (e8b3f6 Kleaf: Add rules_python)
 </manifest>
