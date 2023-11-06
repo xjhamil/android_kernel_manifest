@@ -20,6 +20,7 @@
   </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" />
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="main" />
