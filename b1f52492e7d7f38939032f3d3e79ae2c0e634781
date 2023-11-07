@@ -53,6 +53,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ee02d13_491add72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-11-07T12:09:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a0e0fa7d_1cb6c38d",
+      "revId": "b1f52492e7d7f38939032f3d3e79ae2c0e634781",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f30ed12_4f61948f",
@@ -66,6 +84,24 @@
       "writtenOn": "2023-11-06T23:44:01Z",
       "side": 1,
       "message": "If rules_cc needs rules_python, then it needs to be part of ddk group",
+      "revId": "b1f52492e7d7f38939032f3d3e79ae2c0e634781",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3f6516d_146789d2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2023-11-07T12:09:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f30ed12_4f61948f",
       "revId": "b1f52492e7d7f38939032f3d3e79ae2c0e634781",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
