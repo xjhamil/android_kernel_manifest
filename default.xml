@@ -76,6 +76,7 @@
   <project path="external/stg" name="platform/external/stg" />
   <project path="external/swig" name="platform/external/swig" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zstd" name="platform/external/zstd" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/logging" name="platform/system/logging" />
