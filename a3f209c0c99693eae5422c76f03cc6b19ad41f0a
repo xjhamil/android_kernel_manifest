@@ -16,6 +16,24 @@
       "message": "Requires CL:2835075 to be merged first",
       "revId": "a3f209c0c99693eae5422c76f03cc6b19ad41f0a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10da0339_fa4ca857",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-11-17T16:50:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e90a8660_43f2c359",
+      "revId": "a3f209c0c99693eae5422c76f03cc6b19ad41f0a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
