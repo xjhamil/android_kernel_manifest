@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master-kernel-build-2022" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.15" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.15-2023-12" />
 
-  <project path="build/kernel" name="kernel/build" >
+  <project path="build/kernel" name="kernel/build">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build.sh" dest="build/build.sh" />
@@ -19,12 +19,12 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
-  <project path="common" name="kernel/common" revision="android13-5.15" >
+  <project path="common" name="kernel/common" revision="android13-5.15-2023-12" upstream="android13-5.15-2023-12" dest-branch="android13-5.15-2023-12">
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android13-5.15" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="deede4fddac274575cb0e26498fc0f4a718229fb" upstream="android13-5.15" dest-branch="android13-5.15" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
