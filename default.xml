@@ -10,13 +10,13 @@
     <linkfile src="kleaf/bazel.kleaf-docs.WORKSPACE" dest="WORKSPACE" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" />
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
@@ -24,5 +24,5 @@
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
   <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" />
-  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" />
 </manifest>
