@@ -10,6 +10,7 @@
     <linkfile src="kleaf/bazel.kleaf-docs.WORKSPACE" dest="WORKSPACE" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" />
+<<<<<<< HEAD   (35eefe Switch to main-kernel for some branches.)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
@@ -25,4 +26,36 @@
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
   <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" />
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" />
+=======
+  <project path="kernel/common-patches" name="kernel/common-patches" >
+      <linkfile src="android-mainline" dest="common/patches" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="main-kernel" clone-depth="1" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
+
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk" />
+  <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
+  <project path="external/libcap" name="platform/external/libcap"/>
+  <project path="external/rules_pkg" name="platform/external/rules_pkg" groups="ddk" />
+  <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
+>>>>>>> CHANGE (1bf08d Add rules_pkg with its dependency rules_license into manifes)
 </manifest>
