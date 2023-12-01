@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "076724d4_16b91c7c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2023-12-01T10:48:39Z",
+      "side": 1,
+      "message": "@elsk@google.com, do we need them in `groups\u003d\"ddk\"`?",
+      "revId": "1bdb96819163aaf4a11561539cd185ca40f8964d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
