@@ -31,6 +31,7 @@
   <project path="external/open-dice" name="platform/external/open-dice" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="external/stardoc" name="platform/external/stardoc" />
+  <project path="external/rules_pkg" name="platform/external/rules_pkg" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" />
