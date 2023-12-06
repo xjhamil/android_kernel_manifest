@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1d60e67_4b5bf2f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1959117
+      },
+      "writtenOn": "2023-12-06T22:34:51Z",
+      "side": 1,
+      "message": "Manifest needs to be updated so repo sync fetches the right branches. The presubmit errors are not due to the manifest.",
+      "revId": "83acd4c434f8a49be5aa549a1bc2de58f9ae3b67",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
