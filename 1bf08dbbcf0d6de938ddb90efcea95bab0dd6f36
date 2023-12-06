@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d1b397e_d3efc2fc",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-12-06T18:07:47Z",
+      "side": 1,
+      "message": "bazelbuild-rules_pkg",
+      "revId": "1bf08dbbcf0d6de938ddb90efcea95bab0dd6f36",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
