@@ -16,6 +16,47 @@
       "message": "You don\u0027t need rules_license here?",
       "revId": "b6003d67f99ff03f4c3512ac4db2e2f255aeea3a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d7f35f2_69e0dc94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-12-06T18:09:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2acababf_53a3e1b9",
+      "revId": "b6003d67f99ff03f4c3512ac4db2e2f255aeea3a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7de86e9b_4165b15f",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-12-06T18:09:36Z",
+      "side": 1,
+      "message": "bazelbuild-rules_pkg",
+      "range": {
+        "startLine": 34,
+        "startChar": 26,
+        "endLine": 34,
+        "endChar": 35
+      },
+      "revId": "b6003d67f99ff03f4c3512ac4db2e2f255aeea3a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
