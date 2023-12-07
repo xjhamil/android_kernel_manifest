@@ -46,6 +46,30 @@
       },
       "revId": "f6b397cc0d9d0705c9aef8ba076b7717ec69212b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f1d7723_374b4566",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-12-07T20:16:04Z",
+      "side": 1,
+      "message": "hmm. FTR I ask the question on b/306192195 to see what the architecture people thinks. Let\u0027s hold the cherry-picks until we get a response.",
+      "parentUuid": "f92aff88_2fffe171",
+      "range": {
+        "startLine": 28,
+        "startChar": 26,
+        "endLine": 28,
+        "endChar": 35
+      },
+      "revId": "f6b397cc0d9d0705c9aef8ba076b7717ec69212b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
