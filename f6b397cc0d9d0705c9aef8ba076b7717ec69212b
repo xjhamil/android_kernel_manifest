@@ -22,6 +22,30 @@
       },
       "revId": "f6b397cc0d9d0705c9aef8ba076b7717ec69212b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f92aff88_2fffe171",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1990655
+      },
+      "writtenOn": "2023-12-07T03:33:33Z",
+      "side": 1,
+      "message": "Do you mean: \u003cproject path\u003d\"external/bazelbuild-rules_pkg\" name\u003d\"platform/external/rules_pkg\" /\u003e?\n\nNot sure it\u0027s a good idea. I think we want to keep the source and checkout with same name to reduce confusion? It\u0027s same for all other dependencies.",
+      "parentUuid": "4b2fdac8_71f95657",
+      "range": {
+        "startLine": 28,
+        "startChar": 26,
+        "endLine": 28,
+        "endChar": 35
+      },
+      "revId": "f6b397cc0d9d0705c9aef8ba076b7717ec69212b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
