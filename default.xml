@@ -39,6 +39,7 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
+  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" groups="ddk"/>
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
 </manifest>
