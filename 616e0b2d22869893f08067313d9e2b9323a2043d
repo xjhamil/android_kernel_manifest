@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a4e2162_ffd411c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3231956
+      },
+      "writtenOn": "2023-12-13T11:34:27Z",
+      "side": 1,
+      "message": "Comment removed by: Xin Li; Reason: spam",
+      "revId": "616e0b2d22869893f08067313d9e2b9323a2043d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
