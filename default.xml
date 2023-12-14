@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10-2024-01" />
 
   <project path="build" name="kernel/build" />
-  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
-  <project path="common" name="kernel/common" revision="android12-5.10" />
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="6f0a2a72f849d8bb8e708587582c20019ef91a3c" upstream="android12-5.10" dest-branch="android12-5.10" />
+  <project path="common" name="kernel/common" revision="android12-5.10-2024-01" upstream="android12-5.10-2024-01" dest-branch="android12-5.10-2024-01" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="5e6c1ce750e6ab28b4f34261921d11e4d6f7fdaf" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
